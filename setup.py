@@ -26,6 +26,10 @@ for strRoot, lstDirnames, lstFilenames in os.walk('data'):
 
     for strFilename in lstFilenames:
 
+        if strFilename == '.gitkeep':
+
+            continue
+
         strPath = os.path.join(strRoot, strFilename)
         m_lstDataFiles.append((os.path.dirname(strPath).lstrip('data'), [strPath]))
 
