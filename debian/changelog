@@ -1,0 +1,85 @@
+caja-rename (20.1.25) unstable; urgency=medium
+
+  * Switch to python3-caja dependency
+
+ -- Robert Tari <robert@tari.in>  Sat, 25 Jan 2020 18:05:15 +0100
+
+caja-rename (19.7.15) unstable; urgency=medium
+
+  * Depend on python-caja >= 1.23
+
+ -- Robert Tari <robert@tari.in>  Mon, 15 Jul 2019 01:11:45 +0200
+
+caja-rename (19.7.10) unstable; urgency=medium
+
+  * Set required Python to >= 3.6
+  * Changed python3:Depends
+
+ -- Robert Tari <robert@tari.in>  Tue, 09 Jul 2019 19:27:15 +0200
+
+caja-rename (19.7.9) unstable; urgency=medium
+
+  * Dropped GTK2 and python2 suport
+
+ -- Robert Tari <robert@tari.in>  Tue, 09 Jul 2019 01:17:02 +0200
+
+caja-rename (19.3.20) unstable; urgency=medium
+
+  * Drop dependecies from the setup module
+
+ -- Robert Tari <robert@tari.in>  Wed, 20 Mar 2019 12:30:24 +0100
+
+caja-rename (18.7.28) unstable; urgency=medium
+
+  * Added enumeration start and width (LP: #1784111)
+  * Keep dialog open to allow multiple rename passes
+
+ -- Robert Tari <robert.tari@gmail.com>  Sat, 28 Jul 2018 23:57:32 +0200
+
+caja-rename (18.1.10) unstable; urgency=medium
+
+  * Fix renaming remote files (LP: #1742264)
+
+ -- Robert Tari <robert.tari@gmail.com>  Wed, 10 Jan 2018 05:54:02 +0100
+
+caja-rename (18.1.6) unstable; urgency=medium
+
+  * Ignore unchanged file names
+
+ -- Robert Tari <robert.tari@gmail.com>  Sat, 06 Jan 2018 08:52:07 +0100
+
+caja-rename (17.12.2) unstable; urgency=medium
+
+  * Changed home page URL
+
+ -- Robert Tari <robert.tari@gmail.com>  Sat, 02 Dec 2017 06:38:27 +0100
+
+caja-rename (17.3.28) unstable; urgency=medium
+
+  * Added GTK 2.0 support for old Ubuntu MATE versions
+
+ -- Robert Tari <robert.tari@gmail.com>  Tue, 28 Mar 2017 17:06:00 +0200
+
+caja-rename (17.3.26) unstable; urgency=medium
+
+  * Use length instead of end position when replacing
+
+ -- Robert Tari <robert.tari@gmail.com>  Sun, 26 Mar 2017 16:53:31 +0200
+
+caja-rename (17.3.25) unstable; urgency=medium
+
+  * Added overwrite confirmation
+
+ -- Robert Tari <robert.tari@gmail.com>  Sat, 25 Mar 2017 12:11:25 +0100
+
+caja-rename (17.3.24) unstable; urgency=medium
+
+  * Downgraded to Python 2
+
+ -- Robert Tari <robert.tari@gmail.com>  Fri, 24 Mar 2017 16:27:03 +0100
+
+caja-rename (17.3.23) unstable; urgency=medium
+
+  * Initial version
+
+ -- Robert Tari <robert.tari@gmail.com>  Fri, 24 Mar 2017 13:21:44 +0100
