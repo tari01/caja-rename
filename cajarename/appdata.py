@@ -23,7 +23,7 @@
 APPNAME = 'cajarename'
 APPEXECUTABLE='/usr/share/caja-python/extensions/caja-rename.py'
 APPDEPENDENCIES = ['python3-gi', 'gir1.2-gtk-3.0', 'caja']
-APPVERSION = '20.1.25'
+APPVERSION = '20.1.26'
 APPSHOWSETTINGS = 170323
 APPYEAR = '2017'
 APPTITLE = 'Rename...'

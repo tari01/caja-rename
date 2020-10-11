@@ -1,3 +1,9 @@
+caja-rename (20.1.26) unstable; urgency=medium
+
+  * Version bump
+
+ -- Robert Tari <robert@tari.in>  Sat, 26 Jan 2020 19:50:00 +0100
+
 caja-rename (20.1.25) unstable; urgency=medium
 
   * Switch to python3-caja dependency
