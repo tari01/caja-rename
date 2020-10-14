@@ -8,126 +8,131 @@ msgstr ""
 "Project-Id-Version: cajarename 19.3.20\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2019-03-20 12:30+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-15 18:26+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/caja-rename/"
+"master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:73
 #: data/usr/share/cajarename/cajarename2.glade:46
 #: data/usr/share/cajarename/cajarename3.glade:66
 msgid "Rename..."
-msgstr ""
+msgstr "Renommer…"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:159
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "Les noms suivants ne sont pas acceptés :"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "Invalid names"
-msgstr ""
+msgstr "Noms invalides"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:183
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "Les éléments suivants seront remplacés :"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:183
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Voulez-vous continuer ?"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:184
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Confirmer l'écrasement"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:205
 msgid "There were errors while renaming the following:"
 msgstr ""
+"Des erreurs se sont produites lors du changement de nom des éléments "
+"suivants :"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:206
 msgid "Rename error"
-msgstr ""
+msgstr "Erreur de renommage"
 
 #: data/usr/share/cajarename/cajarename2.glade:70
 #: data/usr/share/cajarename/cajarename3.glade:169
 msgid "Upper case"
-msgstr ""
+msgstr "Majuscule"
 
 #: data/usr/share/cajarename/cajarename2.glade:82
 #: data/usr/share/cajarename/cajarename3.glade:154
 msgid "Lower case"
-msgstr ""
+msgstr "Minuscule"
 
 #: data/usr/share/cajarename/cajarename2.glade:98
 #: data/usr/share/cajarename/cajarename3.glade:139
 msgid "Title case"
-msgstr ""
+msgstr "Casse du titre"
 
 #: data/usr/share/cajarename/cajarename2.glade:114
 #: data/usr/share/cajarename/cajarename3.glade:184
 msgid "Unchanged"
-msgstr ""
+msgstr "Inchangé"
 
 #: data/usr/share/cajarename/cajarename2.glade:133
 #: data/usr/share/cajarename/cajarename3.glade:203
 msgid "Case"
-msgstr ""
+msgstr "Casse"
 
 #: data/usr/share/cajarename/cajarename2.glade:152
 #: data/usr/share/cajarename/cajarename2.glade:345
 #: data/usr/share/cajarename/cajarename3.glade:271
 #: data/usr/share/cajarename/cajarename3.glade:407
 msgid "Text to insert"
-msgstr ""
+msgstr "Texte à insérer"
 
 #: data/usr/share/cajarename/cajarename2.glade:165
 #: data/usr/share/cajarename/cajarename3.glade:224
 msgid "Position"
-msgstr ""
+msgstr "Position"
 
 #: data/usr/share/cajarename/cajarename2.glade:224
 #: data/usr/share/cajarename/cajarename3.glade:290
 msgid "Insert"
-msgstr ""
+msgstr "Insérer"
 
 #: data/usr/share/cajarename/cajarename2.glade:244
 #: data/usr/share/cajarename/cajarename3.glade:313
 msgid "From"
-msgstr ""
+msgstr "De"
 
 #: data/usr/share/cajarename/cajarename2.glade:255
 #: data/usr/share/cajarename/cajarename3.glade:341
 msgid "Length"
-msgstr ""
+msgstr "Longueur"
 
 #: data/usr/share/cajarename/cajarename2.glade:314
 #: data/usr/share/cajarename/cajarename3.glade:372
 msgid "Remove"
-msgstr ""
+msgstr "Retirer"
 
 #: data/usr/share/cajarename/cajarename2.glade:334
 #: data/usr/share/cajarename/cajarename3.glade:395
 msgid "Text to search for"
-msgstr ""
+msgstr "Texte à rechercher"
 
 #: data/usr/share/cajarename/cajarename2.glade:400
 #: data/usr/share/cajarename/cajarename3.glade:448
 msgid "Replace"
-msgstr ""
+msgstr "Remplacer"
 
 #: data/usr/share/cajarename/cajarename2.glade:420
 #: data/usr/share/cajarename/cajarename3.glade:469
 msgid "Digits"
-msgstr ""
+msgstr "Chiffres"
 
 #: data/usr/share/cajarename/cajarename2.glade:431
 #: data/usr/share/cajarename/cajarename3.glade:481
 msgid "Start"
-msgstr ""
+msgstr "Commencer"
 
 #: data/usr/share/cajarename/cajarename2.glade:490
 #: data/usr/share/cajarename/cajarename3.glade:528
 msgid "Enumerate"
-msgstr ""
+msgstr "Énumérer"
