@@ -8,12 +8,18 @@ msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-03-20 12:30+0100\n"
-"PO-Revision-Date: 2017-09-29 21:09+0000\n"
+"PO-Revision-Date: 2020-11-26 14:28+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
-"Language-Team: Lithuanian <lt@li.org>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/caja-rename/"
+"master/lt/>\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:73
 #: data/usr/share/cajarename/cajarename2.glade:46
@@ -119,12 +125,12 @@ msgstr "Pakeisti"
 #: data/usr/share/cajarename/cajarename2.glade:420
 #: data/usr/share/cajarename/cajarename3.glade:469
 msgid "Digits"
-msgstr ""
+msgstr "Skaitmenys"
 
 #: data/usr/share/cajarename/cajarename2.glade:431
 #: data/usr/share/cajarename/cajarename3.glade:481
 msgid "Start"
-msgstr ""
+msgstr "Pradžia"
 
 #: data/usr/share/cajarename/cajarename2.glade:490
 #: data/usr/share/cajarename/cajarename3.glade:528
