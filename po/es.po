@@ -8,18 +8,22 @@ msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-03-20 12:30+0100\n"
-"PO-Revision-Date: 2017-04-17 23:18+0000\n"
-"Last-Translator: Adolfo Jayme <Unknown>\n"
-"Language-Team: Spanish <es@li.org>\n"
+"PO-Revision-Date: 2021-03-01 15:50+0000\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/caja-rename/"
+"master/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5\n"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:73
 #: data/usr/share/cajarename/cajarename2.glade:46
 #: data/usr/share/cajarename/cajarename3.glade:66
 msgid "Rename..."
-msgstr "Cambiar nombre…"
+msgstr "Renombrar…"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:159
 msgid "The following names are not acceptable:"
@@ -39,15 +43,15 @@ msgstr "¿Quiere continuar?"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:184
 msgid "Confirm overwrite"
-msgstr "Confirmar sobrescritura"
+msgstr "Confirmar la sobrescritura"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:205
 msgid "There were errors while renaming the following:"
-msgstr "Se produjeron errores al cambiar el nombre de lo siguiente:"
+msgstr "Se han producido errores al renombrar lo siguiente:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:206
 msgid "Rename error"
-msgstr "Error al cambiar el nombre"
+msgstr "Error al renombrar"
 
 #: data/usr/share/cajarename/cajarename2.glade:70
 #: data/usr/share/cajarename/cajarename3.glade:169
@@ -104,7 +108,7 @@ msgstr "Longitud"
 #: data/usr/share/cajarename/cajarename2.glade:314
 #: data/usr/share/cajarename/cajarename3.glade:372
 msgid "Remove"
-msgstr "Quitar"
+msgstr "Eliminar"
 
 #: data/usr/share/cajarename/cajarename2.glade:334
 #: data/usr/share/cajarename/cajarename3.glade:395
@@ -119,12 +123,12 @@ msgstr "Reemplazar"
 #: data/usr/share/cajarename/cajarename2.glade:420
 #: data/usr/share/cajarename/cajarename3.glade:469
 msgid "Digits"
-msgstr ""
+msgstr "Dígitos"
 
 #: data/usr/share/cajarename/cajarename2.glade:431
 #: data/usr/share/cajarename/cajarename3.glade:481
 msgid "Start"
-msgstr ""
+msgstr "Comenzar"
 
 #: data/usr/share/cajarename/cajarename2.glade:490
 #: data/usr/share/cajarename/cajarename3.glade:528
