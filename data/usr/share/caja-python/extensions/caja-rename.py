@@ -3,7 +3,7 @@
 #
 #  caja-rename.py
 #
-#  Copyright 2017-2020 Robert Tari <robert.tari@gmail.com>
+#  Copyright 2017-2021 Robert Tari <robert@tari.in>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -54,7 +54,7 @@ class RenameMenu(GObject.GObject, Caja.MenuProvider):
 
         if len(lstItems) > 1:
 
-            oMenuItem = Caja.MenuItem(name='cajarename', label=_('Rename...'), icon='font')
+            oMenuItem = Caja.MenuItem(name='cajarename', label=_('Rename All...'), icon='font')
             oMenuItem.connect('activate', self.onActivate, lstItems)
 
             self.oWindow = oWindow
