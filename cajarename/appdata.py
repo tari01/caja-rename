@@ -3,7 +3,7 @@
 #
 #  caja-rename.py
 #
-#  Copyright 2017-2020 Robert Tari <robert.tari@gmail.com>
+#  Copyright 2017-2021 Robert Tari <robert@tari.in>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 APPNAME = 'cajarename'
 APPEXECUTABLE='/usr/share/caja-python/extensions/caja-rename.py'
 APPDEPENDENCIES = ['python3-gi', 'gir1.2-gtk-3.0', 'caja']
-APPVERSION = '20.1.26'
+APPVERSION = '21.4.11'
 APPSHOWSETTINGS = 170323
 APPYEAR = '2017'
 APPTITLE = 'Rename...'

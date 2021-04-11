@@ -1,3 +1,18 @@
+caja-rename (21.4.11) unstable; urgency=medium
+
+  * Updated translation strings
+  * Renamed menu item
+  * Translated using Weblate (Catalan)
+  * Translated using Weblate (Spanish)
+  * Translated using Weblate (Lithuanian)
+  * Translated using Weblate (Portuguese (Brazil))
+  * Translated using Weblate (Occitan)
+  * Translated using Weblate (French)
+  * Translated using Weblate (Norwegian Bokmål)
+  * Added binary dir
+
+ -- Robert Tari <robert@tari.in>  Sun, 11 Apr 2021 11:05:00 +0100
+
 caja-rename (20.1.26) unstable; urgency=medium
 
   * Version bump
