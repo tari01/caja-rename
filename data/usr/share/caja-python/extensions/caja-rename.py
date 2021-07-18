@@ -47,6 +47,8 @@ class RenameMenu(GObject.GObject, Caja.MenuProvider):
 
     def __init__(self):
 
+        GObject.Object.__init__(self)
+
         self.oPixBufFolder = Gtk.IconTheme().get_default().load_icon('gtk-directory', 22, 0)
         self.oPixBufFile = Gtk.IconTheme().get_default().load_icon('gtk-file', 22, 0)
 
