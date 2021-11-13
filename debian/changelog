@@ -1,3 +1,12 @@
+caja-rename (21.11.13) unstable; urgency=medium
+
+  * Added translation using Weblate (Chinese (Simplified))
+  * Translated using Weblate (Chinese (Simplified))
+  * Added translation using Weblate (Greek)
+  * Translated using Weblate (Greek)
+
+ -- Robert Tari <robert@tari.in>  Sat, 13 Nov 2021 22:41:00 +0100
+
 caja-rename (21.7.18) unstable; urgency=medium
 
   * Added translation using Weblate (Croatian)
