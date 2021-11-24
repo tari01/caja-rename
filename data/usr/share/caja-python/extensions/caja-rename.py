@@ -49,8 +49,23 @@ class RenameMenu(GObject.GObject, Caja.MenuProvider):
 
         GObject.Object.__init__(self)
 
-        self.oPixBufFolder = Gtk.IconTheme().get_default().load_icon('gtk-directory', 22, 0)
-        self.oPixBufFile = Gtk.IconTheme().get_default().load_icon('gtk-file', 22, 0)
+        oIconTheme = Gtk.IconTheme().get_default()
+
+        if oIconTheme.has_icon('folder'):
+
+            self.oPixBufFolder = oIconTheme.load_icon('folder', 22, 0)
+
+        else:
+
+            self.oPixBufFolder = oIconTheme.load_icon('image-missing', 22, 0)
+
+        if oIconTheme.has_icon('text-x-generic'):
+
+            self.oPixBufFile = oIconTheme.load_icon('text-x-generic', 22, 0)
+
+        else:
+
+            self.oPixBufFile = oIconTheme.load_icon('image-missing', 22, 0)
 
     def get_file_items(self, oWindow, lstItems):
 
