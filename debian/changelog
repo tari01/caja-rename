@@ -1,3 +1,10 @@
+caja-rename (21.11.24) unstable; urgency=medium
+
+  * Translated using Weblate (Chinese (Simplified))
+  * Use named icons with fallback
+
+ -- Robert Tari <robert@tari.in>  Wed, 24 Nov 2021 14:04:00 +0100
+
 caja-rename (21.11.13) unstable; urgency=medium
 
   * Added translation using Weblate (Chinese (Simplified))
