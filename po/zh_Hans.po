@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2021-04-11 11:10+0200\n"
-"PO-Revision-Date: 2022-01-07 06:53+0000\n"
+"PO-Revision-Date: 2022-01-14 09:55+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "caja-rename/master/zh_Hans/>\n"
@@ -37,11 +37,11 @@ msgstr "大写"
 
 #: data/usr/share/cajarename/cajarename.glade:184
 msgid "Unchanged"
-msgstr ""
+msgstr "未更改"
 
 #: data/usr/share/cajarename/cajarename.glade:203
 msgid "Case"
-msgstr ""
+msgstr "大小写"
 
 #: data/usr/share/cajarename/cajarename.glade:224
 msgid "Position"
