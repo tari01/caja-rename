@@ -8,17 +8,21 @@ msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2021-04-11 11:10+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-27 13:06+0000\n"
+"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/caja-rename/"
+"master/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
-msgstr ""
+msgstr "إعادة التسمية …"
 
 #: data/usr/share/cajarename/cajarename.glade:139
 msgid "Title case"
@@ -26,15 +30,15 @@ msgstr ""
 
 #: data/usr/share/cajarename/cajarename.glade:154
 msgid "Lower case"
-msgstr ""
+msgstr "أحرف صغيرة"
 
 #: data/usr/share/cajarename/cajarename.glade:169
 msgid "Upper case"
-msgstr ""
+msgstr "أحرف كبيرة"
 
 #: data/usr/share/cajarename/cajarename.glade:184
 msgid "Unchanged"
-msgstr ""
+msgstr "دون تغيير"
 
 #: data/usr/share/cajarename/cajarename.glade:203
 msgid "Case"
@@ -42,7 +46,7 @@ msgstr ""
 
 #: data/usr/share/cajarename/cajarename.glade:224
 msgid "Position"
-msgstr ""
+msgstr "الموضع"
 
 #: data/usr/share/cajarename/cajarename.glade:271
 #: data/usr/share/cajarename/cajarename.glade:407
@@ -55,55 +59,55 @@ msgstr ""
 
 #: data/usr/share/cajarename/cajarename.glade:313
 msgid "From"
-msgstr ""
+msgstr "من"
 
 #: data/usr/share/cajarename/cajarename.glade:341
 msgid "Length"
-msgstr ""
+msgstr "الطول"
 
 #: data/usr/share/cajarename/cajarename.glade:372
 msgid "Remove"
-msgstr ""
+msgstr "إزالة"
 
 #: data/usr/share/cajarename/cajarename.glade:395
 msgid "Text to search for"
-msgstr ""
+msgstr "النص الذي تبحث عنه"
 
 #: data/usr/share/cajarename/cajarename.glade:448
 msgid "Replace"
-msgstr ""
+msgstr "استبدل"
 
 #: data/usr/share/cajarename/cajarename.glade:469
 msgid "Digits"
-msgstr ""
+msgstr "أرقام"
 
 #: data/usr/share/cajarename/cajarename.glade:481
 msgid "Start"
-msgstr ""
+msgstr "ابدأ"
 
 #: data/usr/share/cajarename/cajarename.glade:528
 msgid "Enumerate"
-msgstr ""
+msgstr "تعداد"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:57
 msgid "Rename All..."
-msgstr ""
+msgstr "إعادة تسمية الكل…"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:143
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "الأسماء التالية غير مقبولة:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:144
 msgid "Invalid names"
-msgstr ""
+msgstr "أسماء غير صالحة"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:167
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "سيتم استبدال ما يلي:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:167
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "هل ترغب في الاستمرار؟"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:168
 msgid "Confirm overwrite"
@@ -111,8 +115,8 @@ msgstr ""
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:189
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "حدثت أخطاء أثناء إعادة تسمية ما يلي:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:190
 msgid "Rename error"
-msgstr ""
+msgstr "خطأ في إعادة التسمية"
