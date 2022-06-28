@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2021-04-11 11:10+0200\n"
+"POT-Creation-Date: 2022-06-28 23:43+0200\n"
 "PO-Revision-Date: 2022-01-20 07:53+0000\n"
 "Last-Translator: poi <erbaotao@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -88,34 +88,34 @@ msgstr "开始"
 msgid "Enumerate"
 msgstr "枚举"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:57
+#: data/usr/share/caja-python/extensions/caja-rename.py:74
 msgid "Rename All..."
 msgstr "重命名所有…"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:143
+#: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "The following names are not acceptable:"
 msgstr "不接受以下名称："
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:144
+#: data/usr/share/caja-python/extensions/caja-rename.py:161
 msgid "Invalid names"
 msgstr "无效名称"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:167
+#: data/usr/share/caja-python/extensions/caja-rename.py:184
 msgid "The following will be overwritten:"
 msgstr "以下内容将被覆盖："
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:167
+#: data/usr/share/caja-python/extensions/caja-rename.py:184
 msgid "Do you wish to continue?"
 msgstr "你想继续吗？"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:168
+#: data/usr/share/caja-python/extensions/caja-rename.py:185
 msgid "Confirm overwrite"
 msgstr "确认覆盖"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:189
+#: data/usr/share/caja-python/extensions/caja-rename.py:206
 msgid "There were errors while renaming the following:"
 msgstr "重命名以下内容时出错："
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:190
+#: data/usr/share/caja-python/extensions/caja-rename.py:207
 msgid "Rename error"
 msgstr "重命名错误"

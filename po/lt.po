@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cajarename\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-03-20 12:30+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
+"POT-Creation-Date: 2022-06-28 23:43+0200\n"
 "PO-Revision-Date: 2020-11-26 14:28+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/caja-rename/"
@@ -21,118 +21,103 @@ msgstr ""
 "1 : 2);\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:73
-#: data/usr/share/cajarename/cajarename2.glade:46
-#: data/usr/share/cajarename/cajarename3.glade:66
+#: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
 msgstr "Pervadinti..."
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:159
-msgid "The following names are not acceptable:"
-msgstr "Šie pavadinimai nėra priimtini:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:160
-msgid "Invalid names"
-msgstr "Neteisingi pavadinimai"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:183
-msgid "The following will be overwritten:"
-msgstr "Sekantys bus perrašyti:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:183
-msgid "Do you wish to continue?"
-msgstr "Ar norite tęsti?"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
-msgid "Confirm overwrite"
-msgstr "Patvirtinti perrašymą"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:205
-msgid "There were errors while renaming the following:"
-msgstr "Pervadinant šiuos, atsirado klaidų:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:206
-msgid "Rename error"
-msgstr "Pervadinimo klaida"
-
-#: data/usr/share/cajarename/cajarename2.glade:70
-#: data/usr/share/cajarename/cajarename3.glade:169
-msgid "Upper case"
-msgstr "Didžiosios raidės"
-
-#: data/usr/share/cajarename/cajarename2.glade:82
-#: data/usr/share/cajarename/cajarename3.glade:154
-msgid "Lower case"
-msgstr "Mažosios raidės"
-
-#: data/usr/share/cajarename/cajarename2.glade:98
-#: data/usr/share/cajarename/cajarename3.glade:139
+#: data/usr/share/cajarename/cajarename.glade:139
 msgid "Title case"
 msgstr "Iš didžiųjų raidžių"
 
-#: data/usr/share/cajarename/cajarename2.glade:114
-#: data/usr/share/cajarename/cajarename3.glade:184
+#: data/usr/share/cajarename/cajarename.glade:154
+msgid "Lower case"
+msgstr "Mažosios raidės"
+
+#: data/usr/share/cajarename/cajarename.glade:169
+msgid "Upper case"
+msgstr "Didžiosios raidės"
+
+#: data/usr/share/cajarename/cajarename.glade:184
 msgid "Unchanged"
 msgstr "Be pakeitimų"
 
-#: data/usr/share/cajarename/cajarename2.glade:133
-#: data/usr/share/cajarename/cajarename3.glade:203
+#: data/usr/share/cajarename/cajarename.glade:203
 msgid "Case"
 msgstr "Raidžių dydis"
 
-#: data/usr/share/cajarename/cajarename2.glade:152
-#: data/usr/share/cajarename/cajarename2.glade:345
-#: data/usr/share/cajarename/cajarename3.glade:271
-#: data/usr/share/cajarename/cajarename3.glade:407
-msgid "Text to insert"
-msgstr "Tekstas, kurį įterpti"
-
-#: data/usr/share/cajarename/cajarename2.glade:165
-#: data/usr/share/cajarename/cajarename3.glade:224
+#: data/usr/share/cajarename/cajarename.glade:224
 msgid "Position"
 msgstr "Pozicija"
 
-#: data/usr/share/cajarename/cajarename2.glade:224
-#: data/usr/share/cajarename/cajarename3.glade:290
+#: data/usr/share/cajarename/cajarename.glade:271
+#: data/usr/share/cajarename/cajarename.glade:407
+msgid "Text to insert"
+msgstr "Tekstas, kurį įterpti"
+
+#: data/usr/share/cajarename/cajarename.glade:290
 msgid "Insert"
 msgstr "Įterpti"
 
-#: data/usr/share/cajarename/cajarename2.glade:244
-#: data/usr/share/cajarename/cajarename3.glade:313
+#: data/usr/share/cajarename/cajarename.glade:313
 msgid "From"
 msgstr "Nuo"
 
-#: data/usr/share/cajarename/cajarename2.glade:255
-#: data/usr/share/cajarename/cajarename3.glade:341
+#: data/usr/share/cajarename/cajarename.glade:341
 msgid "Length"
 msgstr "Ilgis"
 
-#: data/usr/share/cajarename/cajarename2.glade:314
-#: data/usr/share/cajarename/cajarename3.glade:372
+#: data/usr/share/cajarename/cajarename.glade:372
 msgid "Remove"
 msgstr "Šalinti"
 
-#: data/usr/share/cajarename/cajarename2.glade:334
-#: data/usr/share/cajarename/cajarename3.glade:395
+#: data/usr/share/cajarename/cajarename.glade:395
 msgid "Text to search for"
 msgstr "Tekstas, kurį ieškoti"
 
-#: data/usr/share/cajarename/cajarename2.glade:400
-#: data/usr/share/cajarename/cajarename3.glade:448
+#: data/usr/share/cajarename/cajarename.glade:448
 msgid "Replace"
 msgstr "Pakeisti"
 
-#: data/usr/share/cajarename/cajarename2.glade:420
-#: data/usr/share/cajarename/cajarename3.glade:469
+#: data/usr/share/cajarename/cajarename.glade:469
 msgid "Digits"
 msgstr "Skaitmenys"
 
-#: data/usr/share/cajarename/cajarename2.glade:431
-#: data/usr/share/cajarename/cajarename3.glade:481
+#: data/usr/share/cajarename/cajarename.glade:481
 msgid "Start"
 msgstr "Pradžia"
 
-#: data/usr/share/cajarename/cajarename2.glade:490
-#: data/usr/share/cajarename/cajarename3.glade:528
+#: data/usr/share/cajarename/cajarename.glade:528
 msgid "Enumerate"
 msgstr "Išskaičiuoti"
+
+#: data/usr/share/caja-python/extensions/caja-rename.py:74
+msgid "Rename All..."
+msgstr ""
+
+#: data/usr/share/caja-python/extensions/caja-rename.py:160
+msgid "The following names are not acceptable:"
+msgstr "Šie pavadinimai nėra priimtini:"
+
+#: data/usr/share/caja-python/extensions/caja-rename.py:161
+msgid "Invalid names"
+msgstr "Neteisingi pavadinimai"
+
+#: data/usr/share/caja-python/extensions/caja-rename.py:184
+msgid "The following will be overwritten:"
+msgstr "Sekantys bus perrašyti:"
+
+#: data/usr/share/caja-python/extensions/caja-rename.py:184
+msgid "Do you wish to continue?"
+msgstr "Ar norite tęsti?"
+
+#: data/usr/share/caja-python/extensions/caja-rename.py:185
+msgid "Confirm overwrite"
+msgstr "Patvirtinti perrašymą"
+
+#: data/usr/share/caja-python/extensions/caja-rename.py:206
+msgid "There were errors while renaming the following:"
+msgstr "Pervadinant šiuos, atsirado klaidų:"
+
+#: data/usr/share/caja-python/extensions/caja-rename.py:207
+msgid "Rename error"
+msgstr "Pervadinimo klaida"
