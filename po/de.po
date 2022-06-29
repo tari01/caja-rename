@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2022-06-28 23:43+0200\n"
-"PO-Revision-Date: 2018-08-08 13:08+0000\n"
-"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
-"Language-Team: German <de@li.org>\n"
+"PO-Revision-Date: 2022-06-29 20:57+0000\n"
+"Last-Translator: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/caja-rename/"
+"master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
@@ -38,16 +41,16 @@ msgstr "Unverändert"
 
 #: data/usr/share/cajarename/cajarename.glade:203
 msgid "Case"
-msgstr "Fach"
+msgstr "Groß-/Kleinschreibung"
 
 #: data/usr/share/cajarename/cajarename.glade:224
 msgid "Position"
-msgstr "Stelle"
+msgstr "Position"
 
 #: data/usr/share/cajarename/cajarename.glade:271
 #: data/usr/share/cajarename/cajarename.glade:407
 msgid "Text to insert"
-msgstr "Text zum Einfügen"
+msgstr "Einzufügender Text"
 
 #: data/usr/share/cajarename/cajarename.glade:290
 msgid "Insert"
@@ -87,11 +90,11 @@ msgstr "Aufzählen"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:74
 msgid "Rename All..."
-msgstr ""
+msgstr "Alle umbenennen..."
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "The following names are not acceptable:"
-msgstr "Die folgenden Namen sind nicht möglich:"
+msgstr "Die folgenden Namen sind nicht zulässig:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:161
 msgid "Invalid names"
