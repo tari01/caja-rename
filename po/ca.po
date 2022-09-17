@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: cajarename 19.3.20\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2022-06-28 23:43+0200\n"
-"PO-Revision-Date: 2021-03-01 15:50+0000\n"
+"PO-Revision-Date: 2022-09-18 21:21+0000\n"
 "Last-Translator: Toni Estévez <toni.estevez@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/caja-rename/"
 "master/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
@@ -90,11 +90,11 @@ msgstr "Enumera"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:74
 msgid "Rename All..."
-msgstr ""
+msgstr "Canvia tots els noms..."
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "The following names are not acceptable:"
-msgstr "No són acceptables els noms següents:"
+msgstr "Els noms següents no són aceptables:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:161
 msgid "Invalid names"
