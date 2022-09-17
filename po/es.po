@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2022-06-28 23:43+0200\n"
-"PO-Revision-Date: 2022-09-16 12:22+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2022-09-18 21:21+0000\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/caja-rename/"
 "master/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
@@ -41,7 +41,7 @@ msgstr "Sin cambios"
 
 #: data/usr/share/cajarename/cajarename.glade:203
 msgid "Case"
-msgstr "Uso de mayúsculas"
+msgstr "Uso de las mayúsculas"
 
 #: data/usr/share/cajarename/cajarename.glade:224
 msgid "Position"
@@ -90,11 +90,11 @@ msgstr "Enumerar"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:74
 msgid "Rename All..."
-msgstr "Cambiar el nombre de todo..."
+msgstr "Cambiar todos los nombres..."
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "The following names are not acceptable:"
-msgstr "No son aceptables los nombres siguientes:"
+msgstr "Los nombres siguientes no son aceptables:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:161
 msgid "Invalid names"
