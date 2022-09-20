@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2022-06-28 23:43+0200\n"
-"PO-Revision-Date: 2022-09-18 21:21+0000\n"
-"Last-Translator: Toni Estévez <toni.estevez@gmail.com>\n"
+"PO-Revision-Date: 2022-09-21 18:21+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/caja-rename/"
 "master/es/>\n"
 "Language: es\n"
@@ -90,7 +90,7 @@ msgstr "Enumerar"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:74
 msgid "Rename All..."
-msgstr "Cambiar todos los nombres..."
+msgstr "Cambiar el nombre de todo..."
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "The following names are not acceptable:"
