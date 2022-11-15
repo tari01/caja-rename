@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: cajarename 1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2022-06-28 23:43+0200\n"
-"PO-Revision-Date: 2018-07-28 22:13+0000\n"
-"Last-Translator: Robert Tari <Unknown>\n"
-"Language-Team: English (British)\n"
+"PO-Revision-Date: 2022-11-16 01:49+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
+"Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
+"caja-rename/master/en_GB/>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
@@ -87,7 +90,7 @@ msgstr "Enumerate"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:74
 msgid "Rename All..."
-msgstr ""
+msgstr "Rename All..."
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "The following names are not acceptable:"
