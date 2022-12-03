@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2022-06-28 23:43+0200\n"
-"PO-Revision-Date: 2022-03-27 13:06+0000\n"
-"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
+"PO-Revision-Date: 2022-12-04 19:47+0000\n"
+"Last-Translator: bonbonboi <hamzah.abusamak@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/caja-rename/"
 "master/ar/>\n"
 "Language: ar\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
@@ -26,7 +26,7 @@ msgstr "إعادة التسمية …"
 
 #: data/usr/share/cajarename/cajarename.glade:139
 msgid "Title case"
-msgstr ""
+msgstr "عنوان الحالة"
 
 #: data/usr/share/cajarename/cajarename.glade:154
 msgid "Lower case"
@@ -42,7 +42,7 @@ msgstr "دون تغيير"
 
 #: data/usr/share/cajarename/cajarename.glade:203
 msgid "Case"
-msgstr ""
+msgstr "حالة"
 
 #: data/usr/share/cajarename/cajarename.glade:224
 msgid "Position"
@@ -51,11 +51,11 @@ msgstr "الموضع"
 #: data/usr/share/cajarename/cajarename.glade:271
 #: data/usr/share/cajarename/cajarename.glade:407
 msgid "Text to insert"
-msgstr ""
+msgstr "نص لإدراجه"
 
 #: data/usr/share/cajarename/cajarename.glade:290
 msgid "Insert"
-msgstr ""
+msgstr "ادخل"
 
 #: data/usr/share/cajarename/cajarename.glade:313
 msgid "From"
@@ -111,7 +111,7 @@ msgstr "هل ترغب في الاستمرار؟"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:185
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "تأكيد الكتابة عليه"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:206
 msgid "There were errors while renaming the following:"
