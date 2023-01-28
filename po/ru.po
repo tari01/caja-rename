@@ -8,111 +8,115 @@ msgstr ""
 "Project-Id-Version: caja-rename 21.11.24\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2022-06-28 23:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-01-30 03:52+0000\n"
+"Last-Translator: Сергей <asvmail.as@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/caja-rename/"
+"master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
-msgstr ""
+msgstr "Переименовать..."
 
 #: data/usr/share/cajarename/cajarename.glade:139
 msgid "Title case"
-msgstr ""
+msgstr "Первые буквы заглавные"
 
 #: data/usr/share/cajarename/cajarename.glade:154
 msgid "Lower case"
-msgstr ""
+msgstr "Нижний регистр"
 
 #: data/usr/share/cajarename/cajarename.glade:169
 msgid "Upper case"
-msgstr ""
+msgstr "Верхний регистр"
 
 #: data/usr/share/cajarename/cajarename.glade:184
 msgid "Unchanged"
-msgstr ""
+msgstr "Без изменения"
 
 #: data/usr/share/cajarename/cajarename.glade:203
 msgid "Case"
-msgstr ""
+msgstr "Регистр"
 
 #: data/usr/share/cajarename/cajarename.glade:224
 msgid "Position"
-msgstr ""
+msgstr "Позиция"
 
 #: data/usr/share/cajarename/cajarename.glade:271
 #: data/usr/share/cajarename/cajarename.glade:407
 msgid "Text to insert"
-msgstr ""
+msgstr "Текст для вставки"
 
 #: data/usr/share/cajarename/cajarename.glade:290
 msgid "Insert"
-msgstr ""
+msgstr "Вставить"
 
 #: data/usr/share/cajarename/cajarename.glade:313
 msgid "From"
-msgstr ""
+msgstr "С позиции"
 
 #: data/usr/share/cajarename/cajarename.glade:341
 msgid "Length"
-msgstr ""
+msgstr "Длина"
 
 #: data/usr/share/cajarename/cajarename.glade:372
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: data/usr/share/cajarename/cajarename.glade:395
 msgid "Text to search for"
-msgstr ""
+msgstr "Текст для поиска"
 
 #: data/usr/share/cajarename/cajarename.glade:448
 msgid "Replace"
-msgstr ""
+msgstr "Заменить"
 
 #: data/usr/share/cajarename/cajarename.glade:469
 msgid "Digits"
-msgstr ""
+msgstr "Цифры"
 
 #: data/usr/share/cajarename/cajarename.glade:481
 msgid "Start"
-msgstr ""
+msgstr "Начало"
 
 #: data/usr/share/cajarename/cajarename.glade:528
 msgid "Enumerate"
-msgstr ""
+msgstr "Пронумеровать"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:74
 msgid "Rename All..."
-msgstr ""
+msgstr "Переименовать все..."
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "Следующие названия недопустимы:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:161
 msgid "Invalid names"
-msgstr ""
+msgstr "Недопустимые названия"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:184
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "Следующие элементы будут перезаписаны:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:184
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Вы хотите продолжить?"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:185
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Подтверждение перезаписи"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:206
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "Во время переименования были обнаружены следующие ошибки:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:207
 msgid "Rename error"
-msgstr ""
+msgstr "Ошибка переименования"
