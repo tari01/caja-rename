@@ -11,10 +11,9 @@ for strRoot, lstDirnames, lstFilenames in os.walk('po'):
 
     for strFilename in lstFilenames:
 
-        strLocale = os.path.splitext(strFilename)[0]
+        if strFilename.endswith ('.po'):
 
-        if strLocale != APPNAME:
-
+            strLocale = os.path.splitext(strFilename)[0]
             strLocaleDir = 'data/usr/share/locale/' + strLocale + '/LC_MESSAGES/'
 
             if not os.path.isdir(strLocaleDir):
