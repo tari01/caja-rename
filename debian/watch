@@ -1,2 +1,2 @@
-version=3
-https://github.com/tari01/caja-rename/archive/([0-9.]+)\.tar\.gz
+version=4
+https://github.com/tari01/caja-rename/tags .*/V?(\d\S*)\.tar\.gz

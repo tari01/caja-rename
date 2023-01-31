@@ -1,14 +1,25 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
+export PYBUILD_NAME=caja-rename
+export PYBUILD_SYSTEM=distutils
+
 %:
-		dh $@ --with python3 --buildsystem=pybuild
+	dh ${@} --with python3 --buildsystem=pybuild
 
 override_dh_auto_clean:
-	dh_auto_clean
+	-dh_auto_clean
 	rm -Rfv data/usr/share/locale
-	rm -fv caja-rename.egg-info/PKG-INFO
-	rm -fv caja-rename.egg-info/SOURCES.txt
-	rm -fv caja-rename.egg-info/dependency_links.txt
-	rm -fv caja-rename.egg-info/requires.txt
-	rm -fv caja-rename.egg-info/top_level.txt
+	rm -fv cajarename.egg-info/PKG-INFO
+	rm -fv cajarename.egg-info/SOURCES.txt
+	rm -fv cajarename.egg-info/dependency_links.txt
+	rm -fv cajarename.egg-info/requires.txt
+	rm -fv cajarename.egg-info/top_level.txt
+	rm -Rfv .pybuild
+
+override_dh_fixperms:
+	chmod a-x debian/caja-rename/usr/share/cajarename/cajarename.glade
+	dh_fixperms
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
