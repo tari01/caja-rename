@@ -8,111 +8,114 @@ msgstr ""
 "Project-Id-Version: caja-rename 21.11.24\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2022-06-28 23:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-19 23:39+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/caja-rename/"
+"master/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/usr/share/cajarename/cajarename.glade:66
 msgid "Rename..."
-msgstr ""
+msgstr "Renomear..."
 
 #: data/usr/share/cajarename/cajarename.glade:139
 msgid "Title case"
-msgstr ""
+msgstr "Título da janela"
 
 #: data/usr/share/cajarename/cajarename.glade:154
 msgid "Lower case"
-msgstr ""
+msgstr "Minúsculas"
 
 #: data/usr/share/cajarename/cajarename.glade:169
 msgid "Upper case"
-msgstr ""
+msgstr "Maiúsculas"
 
 #: data/usr/share/cajarename/cajarename.glade:184
 msgid "Unchanged"
-msgstr ""
+msgstr "Não Modificado"
 
 #: data/usr/share/cajarename/cajarename.glade:203
 msgid "Case"
-msgstr ""
+msgstr "Maiúsculas e Minúsculas"
 
 #: data/usr/share/cajarename/cajarename.glade:224
 msgid "Position"
-msgstr ""
+msgstr "Posição"
 
 #: data/usr/share/cajarename/cajarename.glade:271
 #: data/usr/share/cajarename/cajarename.glade:407
 msgid "Text to insert"
-msgstr ""
+msgstr "Insira o texto"
 
 #: data/usr/share/cajarename/cajarename.glade:290
 msgid "Insert"
-msgstr ""
+msgstr "Inserir"
 
 #: data/usr/share/cajarename/cajarename.glade:313
 msgid "From"
-msgstr ""
+msgstr "Remetente"
 
 #: data/usr/share/cajarename/cajarename.glade:341
 msgid "Length"
-msgstr ""
+msgstr "Comprimento"
 
 #: data/usr/share/cajarename/cajarename.glade:372
 msgid "Remove"
-msgstr ""
+msgstr "Remover"
 
 #: data/usr/share/cajarename/cajarename.glade:395
 msgid "Text to search for"
-msgstr ""
+msgstr "Texto a pesquisar"
 
 #: data/usr/share/cajarename/cajarename.glade:448
 msgid "Replace"
-msgstr ""
+msgstr "Substituir"
 
 #: data/usr/share/cajarename/cajarename.glade:469
 msgid "Digits"
-msgstr ""
+msgstr "Dígitos"
 
 #: data/usr/share/cajarename/cajarename.glade:481
 msgid "Start"
-msgstr ""
+msgstr "Começar"
 
 #: data/usr/share/cajarename/cajarename.glade:528
 msgid "Enumerate"
-msgstr ""
+msgstr "Enumerar"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:74
 msgid "Rename All..."
-msgstr ""
+msgstr "Renomear tudo..."
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:160
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "Os seguintes nomes não são aceitáveis:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:161
 msgid "Invalid names"
-msgstr ""
+msgstr "Nomes inválidos"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:184
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "O seguinte será substituído:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:184
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Deseja continuar?"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:185
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Confirmar substituição"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:206
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "Ocorreram erros ao renomear o seguinte:"
 
 #: data/usr/share/caja-python/extensions/caja-rename.py:207
 msgid "Rename error"
-msgstr ""
+msgstr "Erro de renomeação"
