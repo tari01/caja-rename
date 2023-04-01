@@ -1,3 +1,10 @@
+caja-rename (23.4.1) unstable; urgency=medium
+
+  * Added translation using Weblate (Portuguese)
+  * Translated using Weblate (Portuguese)
+
+ -- Robert Tari <robert@tari.in>  Sat, 1 Apr 2023 14:59:00 +0100
+
 caja-rename (22.10.31) unstable; urgency=medium
 
   * Translated using Weblate (Norwegian Bokmål)
