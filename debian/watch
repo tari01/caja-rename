@@ -1,2 +1,0 @@
-version=4
-https://github.com/tari01/caja-rename/tags .*/V?(\d\S*)\.tar\.gz
