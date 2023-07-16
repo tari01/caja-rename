@@ -3,7 +3,7 @@
 #
 #  caja-rename.py
 #
-#  Copyright 2017-2021 Robert Tari <robert@tari.in>
+#  Copyright 2017-2023 Robert Tari <robert@tari.in>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -106,7 +106,17 @@ class RenameMenu(GObject.GObject, Caja.MenuProvider):
             if nRemoveLength:
 
                 nRemoveFrom = self.oBuilder.get_object('spinbuttonRemoveFrom').get_value_as_int()
-                strName = strName[0:nRemoveFrom] + strName[nRemoveFrom + nRemoveLength:]
+                nKeepFrom = 0
+
+                if nRemoveFrom > -1:
+
+                    nKeepFrom = nRemoveFrom + nRemoveLength
+
+                else:
+
+                    nKeepFrom = len (strName) - abs (nRemoveFrom) + nRemoveLength
+
+                strName = strName[:nRemoveFrom] + strName[nKeepFrom:]
 
             # Replace
             strSearch = self.oBuilder.get_object('entryReplaceTarget').get_text()
