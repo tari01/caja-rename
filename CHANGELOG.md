@@ -1,3 +1,7 @@
+# 23.8.1
+
+ - Allow negative start index when removing part of file name (9c200c8)
+
 # 23.7.1
 
  - Translated using Weblate (Turkish) (33c4d6a)
