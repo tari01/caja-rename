@@ -1,3 +1,8 @@
+# 23.9.1
+
+ - po/cajarename.pot: Update translation template (202582a)
+ - data/usr/share/cajarename/cajarename.glade: Fix dialog button image and label (eafdc9f)
+
 # 23.8.1
 
  - Allow negative start index when removing part of file name (9c200c8)
