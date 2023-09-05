@@ -49,6 +49,16 @@ along with cajarename.  If not, see <http://www.gnu.org/licenses/>.
     <property name="step-increment">1</property>
     <property name="page-increment">10</property>
   </object>
+  <object class="GtkImage" id="image1">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <property name="icon-name">dialog-close</property>
+  </object>
+  <object class="GtkImage" id="image2">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <property name="icon-name">dialog-ok</property>
+  </object>
   <object class="GtkListStore" id="liststore">
     <columns>
       <!-- column-name folder -->
@@ -81,10 +91,11 @@ along with cajarename.  If not, see <http://www.gnu.org/licenses/>.
             <property name="layout-style">end</property>
             <child>
               <object class="GtkButton" id="buttonClose">
-                <property name="label">gtk-close</property>
+                <property name="label" translatable="yes">Close</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
+                <property name="image">image1</property>
               </object>
               <packing>
                 <property name="expand">True</property>
@@ -94,10 +105,11 @@ along with cajarename.  If not, see <http://www.gnu.org/licenses/>.
             </child>
             <child>
               <object class="GtkButton" id="buttonApply">
-                <property name="label">gtk-apply</property>
+                <property name="label">Apply</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
+                <property name="image">image2</property>
                 <signal name="clicked" handler="onApply" object="dialog" swapped="no"/>
               </object>
               <packing>
