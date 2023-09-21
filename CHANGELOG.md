@@ -1,3 +1,8 @@
+# 23.10.1
+
+ - Restore README and COPYING (cf4da5c)
+ - Rewrite in C (da3af00)
+
 # 23.9.1
 
  - po/cajarename.pot: Update translation template (202582a)
