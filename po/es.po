@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2023-09-21 17:54+0200\n"
-"PO-Revision-Date: 2022-09-21 18:21+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2023-09-21 16:48+0000\n"
+"Last-Translator: Kamborio <Kamborio15@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/caja-rename/"
 "master/es/>\n"
 "Language: es\n"
@@ -17,51 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: src/caja-rename.c:234
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "No se aceptan los siguientes nombres:"
 
 #: src/caja-rename.c:236
 msgid "Invalid names"
-msgstr ""
+msgstr "Nombres no válidos"
 
 #: src/caja-rename.c:292
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "Se sobreescribirán los siguientes:"
 
 #: src/caja-rename.c:292
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "¿Desea continuar?"
 
 #: src/caja-rename.c:294
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Confirmar sobrescritura"
 
 #: src/caja-rename.c:355
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "Hubo errores al renombrar los siguientes:"
 
 #: src/caja-rename.c:357
 msgid "Rename error"
-msgstr ""
+msgstr "Error al renombrar"
 
 #: src/caja-rename.c:450
 msgid "Rename All…"
-msgstr ""
+msgstr "Renombrar Todo…"
 
 #: src/caja-rename.c:450
 msgid "Rename selected items"
-msgstr ""
+msgstr "Renombrar los elementos seleccionados"
 
 #: data/caja-rename.ui:77
 msgid "Rename..."
-msgstr ""
+msgstr "Renombrar..."
 
 #: data/caja-rename.ui:94
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: data/caja-rename.ui:147
 msgid "Title case"
@@ -109,7 +109,7 @@ msgstr "Eliminar"
 
 #: data/caja-rename.ui:460
 msgid "Text to search for"
-msgstr "Texto que buscar"
+msgstr "Texto a buscar"
 
 #: data/caja-rename.ui:528
 msgid "Replace"
@@ -129,8 +129,8 @@ msgstr "Enumerar"
 
 #: data/libcaja-rename.caja-extension.in:4
 msgid "Caja Rename"
-msgstr ""
+msgstr "Renombrar Caja"
 
 #: data/libcaja-rename.caja-extension.in:5
 msgid "Rename all selected files"
-msgstr ""
+msgstr "Renombrar todos los archivos seleccionados"
