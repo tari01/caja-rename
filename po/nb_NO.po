@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename 19.3.20\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2022-06-28 23:43+0200\n"
+"POT-Creation-Date: 2023-09-21 17:54+0200\n"
 "PO-Revision-Date: 2022-10-28 11:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
-"caja-rename/master/nb_NO/>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/caja-"
+"rename/master/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,107 +19,120 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.2-dev\n"
 
-#: data/usr/share/cajarename/cajarename.glade:66
-msgid "Rename..."
-msgstr "Gi nytt navn…"
+#: src/caja-rename.c:234
+msgid "The following names are not acceptable:"
+msgstr ""
 
-#: data/usr/share/cajarename/cajarename.glade:139
+#: src/caja-rename.c:236
+msgid "Invalid names"
+msgstr ""
+
+#: src/caja-rename.c:292
+msgid "The following will be overwritten:"
+msgstr ""
+
+#: src/caja-rename.c:292
+msgid "Do you wish to continue?"
+msgstr ""
+
+#: src/caja-rename.c:294
+msgid "Confirm overwrite"
+msgstr ""
+
+#: src/caja-rename.c:355
+msgid "There were errors while renaming the following:"
+msgstr ""
+
+#: src/caja-rename.c:357
+msgid "Rename error"
+msgstr ""
+
+#: src/caja-rename.c:450
+msgid "Rename All…"
+msgstr ""
+
+#: src/caja-rename.c:450
+msgid "Rename selected items"
+msgstr ""
+
+#: data/caja-rename.ui:77
+msgid "Rename..."
+msgstr ""
+
+#: data/caja-rename.ui:94
+msgid "Close"
+msgstr ""
+
+#: data/caja-rename.ui:147
 #, fuzzy
 msgid "Title case"
 msgstr "Engelsk overskriftsstil"
 
-#: data/usr/share/cajarename/cajarename.glade:154
+#: data/caja-rename.ui:162
 msgid "Lower case"
 msgstr "Små bokstaver"
 
-#: data/usr/share/cajarename/cajarename.glade:169
+#: data/caja-rename.ui:177
 msgid "Upper case"
 msgstr "Store bokstaver"
 
-#: data/usr/share/cajarename/cajarename.glade:184
+#: data/caja-rename.ui:192
 msgid "Unchanged"
 msgstr "Uendret"
 
-#: data/usr/share/cajarename/cajarename.glade:203
+#: data/caja-rename.ui:235
 msgid "Case"
 msgstr "Små eller store bokstaver"
 
-#: data/usr/share/cajarename/cajarename.glade:224
+#: data/caja-rename.ui:257
 msgid "Position"
 msgstr "Posisjon"
 
-#: data/usr/share/cajarename/cajarename.glade:271
-#: data/usr/share/cajarename/cajarename.glade:407
+#: data/caja-rename.ui:304 data/caja-rename.ui:472
 msgid "Text to insert"
 msgstr "Tekst å lime inn"
 
-#: data/usr/share/cajarename/cajarename.glade:290
+#: data/caja-rename.ui:338
 msgid "Insert"
 msgstr "Sett inn"
 
-#: data/usr/share/cajarename/cajarename.glade:313
+#: data/caja-rename.ui:362
 msgid "From"
 msgstr "Fra"
 
-#: data/usr/share/cajarename/cajarename.glade:341
+#: data/caja-rename.ui:390
 msgid "Length"
 msgstr "Lengde"
 
-#: data/usr/share/cajarename/cajarename.glade:372
+#: data/caja-rename.ui:436
 msgid "Remove"
 msgstr "Fjern"
 
-#: data/usr/share/cajarename/cajarename.glade:395
+#: data/caja-rename.ui:460
 msgid "Text to search for"
 msgstr "Tekst å søke etter"
 
-#: data/usr/share/cajarename/cajarename.glade:448
+#: data/caja-rename.ui:528
 msgid "Replace"
 msgstr "Erstatt"
 
-#: data/usr/share/cajarename/cajarename.glade:469
+#: data/caja-rename.ui:550
 msgid "Digits"
 msgstr "Siffer"
 
-#: data/usr/share/cajarename/cajarename.glade:481
+#: data/caja-rename.ui:562
 msgid "Start"
 msgstr "Start"
 
-#: data/usr/share/cajarename/cajarename.glade:528
+#: data/caja-rename.ui:624
 #, fuzzy
 msgid "Enumerate"
 msgstr "Tell opp"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:74
-#, fuzzy
-msgid "Rename All..."
-msgstr "Endre navn på alt …"
+#: data/libcaja-rename.caja-extension.in:4
+msgid "Caja Rename"
+msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:160
-msgid "The following names are not acceptable:"
-msgstr "Følgende navn godtas ikke:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:161
-msgid "Invalid names"
-msgstr "Ugyldige navn"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
-msgid "The following will be overwritten:"
-msgstr "Følgende vil bli overskrevet:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
-msgid "Do you wish to continue?"
-msgstr "Ønsker du å fortsette?"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:185
-msgid "Confirm overwrite"
-msgstr "Bekreft overskriving"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:206
-#, fuzzy
-msgid "There were errors while renaming the following:"
-msgstr "Klarte ikke å gi følgende filer nye navn:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:207
-msgid "Rename error"
-msgstr "Klarte ikke å angi nytt navn"
+#: data/libcaja-rename.caja-extension.in:5
+msgid "Rename all selected files"
+msgstr ""

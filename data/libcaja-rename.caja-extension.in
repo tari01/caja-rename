@@ -1,0 +1,8 @@
+[Caja Extension]
+Icon=caja-rename
+Name=Caja Rename
+Description=Rename all selected files
+Author=Robert Tari <robert@tari.in>
+Copyright=Copyright (C) 2017-@YEAR@ Robert Tari
+Version=@PROJECT_VERSION@
+Website=https://tari.in/www/software/caja-rename/

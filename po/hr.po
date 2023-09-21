@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2022-06-28 23:43+0200\n"
+"POT-Creation-Date: 2023-09-21 17:54+0200\n"
 "PO-Revision-Date: 2021-05-17 15:32+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/caja-rename/"
@@ -20,103 +20,118 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.7-dev\n"
 
-#: data/usr/share/cajarename/cajarename.glade:66
-msgid "Rename..."
-msgstr "Preimenuj …"
+#: src/caja-rename.c:234
+msgid "The following names are not acceptable:"
+msgstr ""
 
-#: data/usr/share/cajarename/cajarename.glade:139
+#: src/caja-rename.c:236
+msgid "Invalid names"
+msgstr ""
+
+#: src/caja-rename.c:292
+msgid "The following will be overwritten:"
+msgstr ""
+
+#: src/caja-rename.c:292
+msgid "Do you wish to continue?"
+msgstr ""
+
+#: src/caja-rename.c:294
+msgid "Confirm overwrite"
+msgstr ""
+
+#: src/caja-rename.c:355
+msgid "There were errors while renaming the following:"
+msgstr ""
+
+#: src/caja-rename.c:357
+msgid "Rename error"
+msgstr ""
+
+#: src/caja-rename.c:450
+msgid "Rename All…"
+msgstr ""
+
+#: src/caja-rename.c:450
+msgid "Rename selected items"
+msgstr ""
+
+#: data/caja-rename.ui:77
+msgid "Rename..."
+msgstr ""
+
+#: data/caja-rename.ui:94
+msgid "Close"
+msgstr ""
+
+#: data/caja-rename.ui:147
 msgid "Title case"
 msgstr "Velika početna slova"
 
-#: data/usr/share/cajarename/cajarename.glade:154
+#: data/caja-rename.ui:162
 msgid "Lower case"
 msgstr "Mala slova"
 
-#: data/usr/share/cajarename/cajarename.glade:169
+#: data/caja-rename.ui:177
 msgid "Upper case"
 msgstr "Velika slova"
 
-#: data/usr/share/cajarename/cajarename.glade:184
+#: data/caja-rename.ui:192
 msgid "Unchanged"
 msgstr "Nepromijenjeno"
 
-#: data/usr/share/cajarename/cajarename.glade:203
+#: data/caja-rename.ui:235
 msgid "Case"
 msgstr "Veličina slova"
 
-#: data/usr/share/cajarename/cajarename.glade:224
+#: data/caja-rename.ui:257
 msgid "Position"
 msgstr "Položaj"
 
-#: data/usr/share/cajarename/cajarename.glade:271
-#: data/usr/share/cajarename/cajarename.glade:407
+#: data/caja-rename.ui:304 data/caja-rename.ui:472
 msgid "Text to insert"
 msgstr "Tekst za umetanje"
 
-#: data/usr/share/cajarename/cajarename.glade:290
+#: data/caja-rename.ui:338
 msgid "Insert"
 msgstr "Umetni"
 
-#: data/usr/share/cajarename/cajarename.glade:313
+#: data/caja-rename.ui:362
 msgid "From"
 msgstr "Od"
 
-#: data/usr/share/cajarename/cajarename.glade:341
+#: data/caja-rename.ui:390
 msgid "Length"
 msgstr "Duljina"
 
-#: data/usr/share/cajarename/cajarename.glade:372
+#: data/caja-rename.ui:436
 msgid "Remove"
 msgstr "Ukloni"
 
-#: data/usr/share/cajarename/cajarename.glade:395
+#: data/caja-rename.ui:460
 msgid "Text to search for"
 msgstr "Traženi tekst"
 
-#: data/usr/share/cajarename/cajarename.glade:448
+#: data/caja-rename.ui:528
 msgid "Replace"
 msgstr "Zamijeni"
 
-#: data/usr/share/cajarename/cajarename.glade:469
+#: data/caja-rename.ui:550
 msgid "Digits"
 msgstr "Brojke"
 
-#: data/usr/share/cajarename/cajarename.glade:481
+#: data/caja-rename.ui:562
 msgid "Start"
 msgstr "Pokreni"
 
-#: data/usr/share/cajarename/cajarename.glade:528
+#: data/caja-rename.ui:624
 msgid "Enumerate"
 msgstr "Numeriraj"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:74
-msgid "Rename All..."
-msgstr "Preimenuj sve …"
+#: data/libcaja-rename.caja-extension.in:4
+msgid "Caja Rename"
+msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:160
-msgid "The following names are not acceptable:"
-msgstr "Sljedeća imena se ne prihvaćaju:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:161
-msgid "Invalid names"
-msgstr "Neispravna imena"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
-msgid "The following will be overwritten:"
-msgstr "Sljedeće će se prepisati:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
-msgid "Do you wish to continue?"
-msgstr "Želiš li nastaviti?"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:185
-msgid "Confirm overwrite"
-msgstr "Potvrdi prepisivanje"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:206
-msgid "There were errors while renaming the following:"
-msgstr "Došlo je do grešaka tijekom preimenovanja sljedećeg:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:207
-msgid "Rename error"
-msgstr "Greška u preimenovanju"
+#: data/libcaja-rename.caja-extension.in:5
+msgid "Rename all selected files"
+msgstr ""

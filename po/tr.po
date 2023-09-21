@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 21.11.24\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2022-06-28 23:43+0200\n"
+"POT-Creation-Date: 2023-09-21 17:54+0200\n"
 "PO-Revision-Date: 2023-06-12 21:52+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/caja-rename/"
@@ -19,103 +19,118 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.18-dev\n"
 
-#: data/usr/share/cajarename/cajarename.glade:66
-msgid "Rename..."
-msgstr "Yeniden adlandır..."
+#: src/caja-rename.c:234
+msgid "The following names are not acceptable:"
+msgstr ""
 
-#: data/usr/share/cajarename/cajarename.glade:139
+#: src/caja-rename.c:236
+msgid "Invalid names"
+msgstr ""
+
+#: src/caja-rename.c:292
+msgid "The following will be overwritten:"
+msgstr ""
+
+#: src/caja-rename.c:292
+msgid "Do you wish to continue?"
+msgstr ""
+
+#: src/caja-rename.c:294
+msgid "Confirm overwrite"
+msgstr ""
+
+#: src/caja-rename.c:355
+msgid "There were errors while renaming the following:"
+msgstr ""
+
+#: src/caja-rename.c:357
+msgid "Rename error"
+msgstr ""
+
+#: src/caja-rename.c:450
+msgid "Rename All…"
+msgstr ""
+
+#: src/caja-rename.c:450
+msgid "Rename selected items"
+msgstr ""
+
+#: data/caja-rename.ui:77
+msgid "Rename..."
+msgstr ""
+
+#: data/caja-rename.ui:94
+msgid "Close"
+msgstr ""
+
+#: data/caja-rename.ui:147
 msgid "Title case"
 msgstr "Başlık Düzeni"
 
-#: data/usr/share/cajarename/cajarename.glade:154
+#: data/caja-rename.ui:162
 msgid "Lower case"
 msgstr "küçük harf"
 
-#: data/usr/share/cajarename/cajarename.glade:169
+#: data/caja-rename.ui:177
 msgid "Upper case"
 msgstr "BÜYÜK HARF"
 
-#: data/usr/share/cajarename/cajarename.glade:184
+#: data/caja-rename.ui:192
 msgid "Unchanged"
 msgstr "Değiştirme"
 
-#: data/usr/share/cajarename/cajarename.glade:203
+#: data/caja-rename.ui:235
 msgid "Case"
 msgstr "Düzen"
 
-#: data/usr/share/cajarename/cajarename.glade:224
+#: data/caja-rename.ui:257
 msgid "Position"
 msgstr "Konum"
 
-#: data/usr/share/cajarename/cajarename.glade:271
-#: data/usr/share/cajarename/cajarename.glade:407
+#: data/caja-rename.ui:304 data/caja-rename.ui:472
 msgid "Text to insert"
 msgstr "Eklenecek metin"
 
-#: data/usr/share/cajarename/cajarename.glade:290
+#: data/caja-rename.ui:338
 msgid "Insert"
 msgstr "Ekle"
 
-#: data/usr/share/cajarename/cajarename.glade:313
+#: data/caja-rename.ui:362
 msgid "From"
 msgstr "Kaynak"
 
-#: data/usr/share/cajarename/cajarename.glade:341
+#: data/caja-rename.ui:390
 msgid "Length"
 msgstr "Uzunluk"
 
-#: data/usr/share/cajarename/cajarename.glade:372
+#: data/caja-rename.ui:436
 msgid "Remove"
 msgstr "Kaldır"
 
-#: data/usr/share/cajarename/cajarename.glade:395
+#: data/caja-rename.ui:460
 msgid "Text to search for"
 msgstr "Aranacak metin"
 
-#: data/usr/share/cajarename/cajarename.glade:448
+#: data/caja-rename.ui:528
 msgid "Replace"
 msgstr "Yer değiştir"
 
-#: data/usr/share/cajarename/cajarename.glade:469
+#: data/caja-rename.ui:550
 msgid "Digits"
 msgstr "Basamaklar"
 
-#: data/usr/share/cajarename/cajarename.glade:481
+#: data/caja-rename.ui:562
 msgid "Start"
 msgstr "Başlat"
 
-#: data/usr/share/cajarename/cajarename.glade:528
+#: data/caja-rename.ui:624
 msgid "Enumerate"
 msgstr "Numaralandır"
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:74
-msgid "Rename All..."
-msgstr "Tümünü Yeniden Adlandır..."
+#: data/libcaja-rename.caja-extension.in:4
+msgid "Caja Rename"
+msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:160
-msgid "The following names are not acceptable:"
-msgstr "Aşağıdaki adlar kabul edilemez:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:161
-msgid "Invalid names"
-msgstr "Geçersiz adlar"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
-msgid "The following will be overwritten:"
-msgstr "Aşağıdakilerin üzerine yazılacak:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
-msgid "Do you wish to continue?"
-msgstr "Devam etmek istiyor musunuz?"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:185
-msgid "Confirm overwrite"
-msgstr "Üzerine yazmayı onayla"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:206
-msgid "There were errors while renaming the following:"
-msgstr "Aşağıdakiler yeniden adlandırırken hata oluştu:"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:207
-msgid "Rename error"
-msgstr "Yeniden adlandırma hatası"
+#: data/libcaja-rename.caja-extension.in:5
+msgid "Rename all selected files"
+msgstr ""

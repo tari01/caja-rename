@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2022-06-28 23:43+0200\n"
+"POT-Creation-Date: 2023-09-21 17:54+0200\n"
 "PO-Revision-Date: 2018-02-14 12:14+0000\n"
 "Last-Translator: Matic Gradišer <Unknown>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
@@ -16,103 +16,118 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/usr/share/cajarename/cajarename.glade:66
-msgid "Rename..."
-msgstr "Preimenuj..."
-
-#: data/usr/share/cajarename/cajarename.glade:139
-msgid "Title case"
-msgstr ""
-
-#: data/usr/share/cajarename/cajarename.glade:154
-msgid "Lower case"
-msgstr "Male črke"
-
-#: data/usr/share/cajarename/cajarename.glade:169
-msgid "Upper case"
-msgstr "Velike črke"
-
-#: data/usr/share/cajarename/cajarename.glade:184
-msgid "Unchanged"
-msgstr "Nespremenjeno"
-
-#: data/usr/share/cajarename/cajarename.glade:203
-msgid "Case"
-msgstr "Velike/male črke"
-
-#: data/usr/share/cajarename/cajarename.glade:224
-msgid "Position"
-msgstr "Položaj"
-
-#: data/usr/share/cajarename/cajarename.glade:271
-#: data/usr/share/cajarename/cajarename.glade:407
-msgid "Text to insert"
-msgstr ""
-
-#: data/usr/share/cajarename/cajarename.glade:290
-msgid "Insert"
-msgstr "Vstavi"
-
-#: data/usr/share/cajarename/cajarename.glade:313
-msgid "From"
-msgstr "Od"
-
-#: data/usr/share/cajarename/cajarename.glade:341
-msgid "Length"
-msgstr "Dolžina"
-
-#: data/usr/share/cajarename/cajarename.glade:372
-msgid "Remove"
-msgstr "Odstrani"
-
-#: data/usr/share/cajarename/cajarename.glade:395
-msgid "Text to search for"
-msgstr "Besedilo, ki naj se išče"
-
-#: data/usr/share/cajarename/cajarename.glade:448
-msgid "Replace"
-msgstr "Zamenjaj"
-
-#: data/usr/share/cajarename/cajarename.glade:469
-msgid "Digits"
-msgstr ""
-
-#: data/usr/share/cajarename/cajarename.glade:481
-msgid "Start"
-msgstr ""
-
-#: data/usr/share/cajarename/cajarename.glade:528
-msgid "Enumerate"
-msgstr "Oštevilči"
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:74
-msgid "Rename All..."
-msgstr ""
-
-#: data/usr/share/caja-python/extensions/caja-rename.py:160
+#: src/caja-rename.c:234
 msgid "The following names are not acceptable:"
 msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:161
+#: src/caja-rename.c:236
 msgid "Invalid names"
 msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
+#: src/caja-rename.c:292
 msgid "The following will be overwritten:"
 msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:184
+#: src/caja-rename.c:292
 msgid "Do you wish to continue?"
-msgstr "Želite nadaljevati?"
+msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:185
+#: src/caja-rename.c:294
 msgid "Confirm overwrite"
-msgstr "Potrdi prepis"
+msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:206
+#: src/caja-rename.c:355
 msgid "There were errors while renaming the following:"
 msgstr ""
 
-#: data/usr/share/caja-python/extensions/caja-rename.py:207
+#: src/caja-rename.c:357
 msgid "Rename error"
-msgstr "Napaka preimenovanja"
+msgstr ""
+
+#: src/caja-rename.c:450
+msgid "Rename All…"
+msgstr ""
+
+#: src/caja-rename.c:450
+msgid "Rename selected items"
+msgstr ""
+
+#: data/caja-rename.ui:77
+msgid "Rename..."
+msgstr ""
+
+#: data/caja-rename.ui:94
+msgid "Close"
+msgstr ""
+
+#: data/caja-rename.ui:147
+msgid "Title case"
+msgstr ""
+
+#: data/caja-rename.ui:162
+msgid "Lower case"
+msgstr "Male črke"
+
+#: data/caja-rename.ui:177
+msgid "Upper case"
+msgstr "Velike črke"
+
+#: data/caja-rename.ui:192
+msgid "Unchanged"
+msgstr "Nespremenjeno"
+
+#: data/caja-rename.ui:235
+msgid "Case"
+msgstr "Velike/male črke"
+
+#: data/caja-rename.ui:257
+msgid "Position"
+msgstr "Položaj"
+
+#: data/caja-rename.ui:304 data/caja-rename.ui:472
+msgid "Text to insert"
+msgstr ""
+
+#: data/caja-rename.ui:338
+msgid "Insert"
+msgstr "Vstavi"
+
+#: data/caja-rename.ui:362
+msgid "From"
+msgstr "Od"
+
+#: data/caja-rename.ui:390
+msgid "Length"
+msgstr "Dolžina"
+
+#: data/caja-rename.ui:436
+msgid "Remove"
+msgstr "Odstrani"
+
+#: data/caja-rename.ui:460
+msgid "Text to search for"
+msgstr "Besedilo, ki naj se išče"
+
+#: data/caja-rename.ui:528
+msgid "Replace"
+msgstr "Zamenjaj"
+
+#: data/caja-rename.ui:550
+msgid "Digits"
+msgstr ""
+
+#: data/caja-rename.ui:562
+msgid "Start"
+msgstr ""
+
+#: data/caja-rename.ui:624
+msgid "Enumerate"
+msgstr "Oštevilči"
+
+#: data/libcaja-rename.caja-extension.in:4
+msgid "Caja Rename"
+msgstr ""
+
+#: data/libcaja-rename.caja-extension.in:5
+msgid "Rename all selected files"
+msgstr ""
