@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2023-09-21 17:54+0200\n"
-"PO-Revision-Date: 2021-05-17 15:32+0000\n"
+"PO-Revision-Date: 2023-09-27 17:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/caja-rename/"
 "master/hr/>\n"
@@ -18,51 +18,51 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: src/caja-rename.c:234
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "Sljedeća imena nisu dopuštena:"
 
 #: src/caja-rename.c:236
 msgid "Invalid names"
-msgstr ""
+msgstr "Neispravna imena"
 
 #: src/caja-rename.c:292
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "Sljedeće će se prepisati:"
 
 #: src/caja-rename.c:292
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Želiš li nastaviti?"
 
 #: src/caja-rename.c:294
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Potvrdi prepisivanje"
 
 #: src/caja-rename.c:355
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "Došlo je do grešaka tijekom preimenovanja sljedećeg:"
 
 #: src/caja-rename.c:357
 msgid "Rename error"
-msgstr ""
+msgstr "Greška u preimenovanju"
 
 #: src/caja-rename.c:450
 msgid "Rename All…"
-msgstr ""
+msgstr "Preimenuj sve …"
 
 #: src/caja-rename.c:450
 msgid "Rename selected items"
-msgstr ""
+msgstr "Preimenuj odabrane stavke"
 
 #: data/caja-rename.ui:77
 msgid "Rename..."
-msgstr ""
+msgstr "Preimenuj …"
 
 #: data/caja-rename.ui:94
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: data/caja-rename.ui:147
 msgid "Title case"
@@ -130,8 +130,8 @@ msgstr "Numeriraj"
 
 #: data/libcaja-rename.caja-extension.in:4
 msgid "Caja Rename"
-msgstr ""
+msgstr "Caja preimenovanje"
 
 #: data/libcaja-rename.caja-extension.in:5
 msgid "Rename all selected files"
-msgstr ""
+msgstr "Preimenuj sve odabrane datoteke"
