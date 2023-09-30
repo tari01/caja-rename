@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2023-09-21 17:54+0200\n"
-"PO-Revision-Date: 2022-07-23 21:15+0000\n"
+"PO-Revision-Date: 2023-10-01 18:03+0000\n"
 "Last-Translator: Tomáš Marný <tomik.marny@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/caja-rename/master/"
 "cs/>\n"
@@ -17,51 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: src/caja-rename.c:234
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "Následující názvy nejsou přijatelné:"
 
 #: src/caja-rename.c:236
 msgid "Invalid names"
-msgstr ""
+msgstr "Neplatné názvy"
 
 #: src/caja-rename.c:292
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "Následující budou přepsány:"
 
 #: src/caja-rename.c:292
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Chcete pokračovat?"
 
 #: src/caja-rename.c:294
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Potvrďte přepsání"
 
 #: src/caja-rename.c:355
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "Při přejmenování následujících položek došlo k chybám:"
 
 #: src/caja-rename.c:357
 msgid "Rename error"
-msgstr ""
+msgstr "Chyba během přejmenování"
 
 #: src/caja-rename.c:450
 msgid "Rename All…"
-msgstr ""
+msgstr "Přejmenovat vše…"
 
 #: src/caja-rename.c:450
 msgid "Rename selected items"
-msgstr ""
+msgstr "Přejmenovat vybrané položky"
 
 #: data/caja-rename.ui:77
 msgid "Rename..."
-msgstr ""
+msgstr "Přejmenovat..."
 
 #: data/caja-rename.ui:94
 msgid "Close"
-msgstr ""
+msgstr "Zavřít"
 
 #: data/caja-rename.ui:147
 msgid "Title case"
@@ -129,8 +129,8 @@ msgstr "Výčet"
 
 #: data/libcaja-rename.caja-extension.in:4
 msgid "Caja Rename"
-msgstr ""
+msgstr "Caja Rename"
 
 #: data/libcaja-rename.caja-extension.in:5
 msgid "Rename all selected files"
-msgstr ""
+msgstr "Přejmenovat všechny vybrané soubory"
