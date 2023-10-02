@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: caja-rename 21.11.24\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2023-09-21 17:54+0200\n"
-"PO-Revision-Date: 2023-06-12 21:52+0000\n"
+"PO-Revision-Date: 2023-10-03 20:12+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/caja-rename/"
 "master/tr/>\n"
@@ -17,51 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: src/caja-rename.c:234
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "Aşağıdaki adlar kabul edilmez:"
 
 #: src/caja-rename.c:236
 msgid "Invalid names"
-msgstr ""
+msgstr "Geçersiz adlar"
 
 #: src/caja-rename.c:292
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "Aşağıdakilerin üzerine yazılacak:"
 
 #: src/caja-rename.c:292
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Devam etmek istiyor musunuz?"
 
 #: src/caja-rename.c:294
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Üzerine yazmayı onayla"
 
 #: src/caja-rename.c:355
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "Aşağıdakiler yeniden adlandırırken hata oluştu:"
 
 #: src/caja-rename.c:357
 msgid "Rename error"
-msgstr ""
+msgstr "Yeniden adlandırma hatası"
 
 #: src/caja-rename.c:450
 msgid "Rename All…"
-msgstr ""
+msgstr "Tümünü Yeniden Adlandır…"
 
 #: src/caja-rename.c:450
 msgid "Rename selected items"
-msgstr ""
+msgstr "Seçili ögeleri yeniden adlandır"
 
 #: data/caja-rename.ui:77
 msgid "Rename..."
-msgstr ""
+msgstr "Yeniden Adlandır..."
 
 #: data/caja-rename.ui:94
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #: data/caja-rename.ui:147
 msgid "Title case"
@@ -129,8 +129,8 @@ msgstr "Numaralandır"
 
 #: data/libcaja-rename.caja-extension.in:4
 msgid "Caja Rename"
-msgstr ""
+msgstr "Caja Rename"
 
 #: data/libcaja-rename.caja-extension.in:5
 msgid "Rename all selected files"
-msgstr ""
+msgstr "Tüm seçili dosyaları yeniden adlandır"
