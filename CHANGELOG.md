@@ -1,3 +1,12 @@
+# 23.11.1
+
+ - Translated using Weblate (Turkish) (eee5f1a)
+ - Translated using Weblate (German) (1c7e5c5)
+ - Translated using Weblate (Czech) (fec3ff7)
+ - Translated using Weblate (Croatian) (3a97b6b)
+ - Translated using Weblate (Russian) (4ff86a4)
+ - Translated using Weblate (Spanish) (dbec466)
+
 # 23.10.1
 
  - Restore README and COPYING (cf4da5c)

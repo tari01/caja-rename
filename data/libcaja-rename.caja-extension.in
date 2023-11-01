@@ -1,6 +1,17 @@
 [Caja Extension]
 Icon=caja-rename
+Name[cs]=Caja Rename
+Name[es]=Renombrar Caja
+Name[hr]=Caja preimenovanje
+Name[ru]=Caja Rename
+Name[tr]=Caja Rename
 Name=Caja Rename
+Description[cs]=Přejmenovat všechny vybrané soubory
+Description[de]=Alle ausgewählten Dateien umbenennen
+Description[es]=Renombrar todos los archivos seleccionados
+Description[hr]=Preimenuj sve odabrane datoteke
+Description[ru]=Переименовать все выбранные файлы
+Description[tr]=Tüm seçili dosyaları yeniden adlandır
 Description=Rename all selected files
 Author=Robert Tari <robert@tari.in>
 Copyright=Copyright (C) 2017-@YEAR@ Robert Tari
