@@ -1,3 +1,8 @@
+# 23.12.1
+
+ - Translated using Weblate (Ukrainian) (3afb34d)
+ - Added translation using Weblate (Ukrainian) (f0612ab)
+
 # 23.11.1
 
  - Translated using Weblate (Turkish) (eee5f1a)

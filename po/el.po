@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2023-09-21 17:54+0200\n"
+"POT-Creation-Date: 2023-12-01 10:13+0100\n"
 "PO-Revision-Date: 2021-11-10 15:51+0000\n"
 "Last-Translator: Dimitris T <dimitris@stinpriza.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/caja-rename/master/"
@@ -127,10 +127,10 @@ msgstr "Έναρξη"
 msgid "Enumerate"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.in:4
+#: data/libcaja-rename.caja-extension.in:9
 msgid "Caja Rename"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.in:5
+#: data/libcaja-rename.caja-extension.in:16
 msgid "Rename all selected files"
 msgstr ""

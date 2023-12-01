@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2023-09-21 17:54+0200\n"
+"POT-Creation-Date: 2023-12-01 10:13+0100\n"
 "PO-Revision-Date: 2023-10-01 18:03+0000\n"
 "Last-Translator: Tomáš Marný <tomik.marny@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/caja-rename/master/"
@@ -127,10 +127,10 @@ msgstr "Začátek"
 msgid "Enumerate"
 msgstr "Výčet"
 
-#: data/libcaja-rename.caja-extension.in:4
+#: data/libcaja-rename.caja-extension.in:9
 msgid "Caja Rename"
 msgstr "Caja Rename"
 
-#: data/libcaja-rename.caja-extension.in:5
+#: data/libcaja-rename.caja-extension.in:16
 msgid "Rename all selected files"
 msgstr "Přejmenovat všechny vybrané soubory"

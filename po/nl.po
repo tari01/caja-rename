@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2023-09-21 17:54+0200\n"
+"POT-Creation-Date: 2023-12-01 10:13+0100\n"
 "PO-Revision-Date: 2017-03-27 17:23+0000\n"
 "Last-Translator: René Devers <rene.devers@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
@@ -124,10 +124,10 @@ msgstr ""
 msgid "Enumerate"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.in:4
+#: data/libcaja-rename.caja-extension.in:9
 msgid "Caja Rename"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.in:5
+#: data/libcaja-rename.caja-extension.in:16
 msgid "Rename all selected files"
 msgstr ""
