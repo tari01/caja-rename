@@ -1,3 +1,8 @@
+# 24.2.1
+
+ - Translated using Weblate (Portuguese) (2b5c484)
+ - Translated using Weblate (Arabic) (4d7b5d8)
+
 # 23.12.1
 
  - Translated using Weblate (Ukrainian) (3afb34d)

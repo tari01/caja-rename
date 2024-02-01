@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2023-12-01 10:13+0100\n"
+"POT-Creation-Date: 2024-02-01 10:14+0100\n"
 "PO-Revision-Date: 2022-09-08 09:24+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/caja-rename/"
@@ -129,10 +129,10 @@ msgstr "Pradžia"
 msgid "Enumerate"
 msgstr "Išskaičiuoti"
 
-#: data/libcaja-rename.caja-extension.in:9
+#: data/libcaja-rename.caja-extension.in:10
 msgid "Caja Rename"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.in:16
+#: data/libcaja-rename.caja-extension.in:18
 msgid "Rename all selected files"
 msgstr ""

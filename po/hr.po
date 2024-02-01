@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2023-12-01 10:13+0100\n"
+"POT-Creation-Date: 2024-02-01 10:14+0100\n"
 "PO-Revision-Date: 2023-09-27 17:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/caja-rename/"
@@ -128,10 +128,10 @@ msgstr "Pokreni"
 msgid "Enumerate"
 msgstr "Numeriraj"
 
-#: data/libcaja-rename.caja-extension.in:9
+#: data/libcaja-rename.caja-extension.in:10
 msgid "Caja Rename"
 msgstr "Caja preimenovanje"
 
-#: data/libcaja-rename.caja-extension.in:16
+#: data/libcaja-rename.caja-extension.in:18
 msgid "Rename all selected files"
 msgstr "Preimenuj sve odabrane datoteke"
