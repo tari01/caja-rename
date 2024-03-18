@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2024-02-01 10:14+0100\n"
-"PO-Revision-Date: 2022-01-20 07:53+0000\n"
-"Last-Translator: poi <erbaotao@outlook.com>\n"
+"PO-Revision-Date: 2024-03-19 03:02+0000\n"
+"Last-Translator: 复予 <clonewith@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "caja-rename/master/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -17,51 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: src/caja-rename.c:234
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "无法接受如下名称："
 
 #: src/caja-rename.c:236
 msgid "Invalid names"
-msgstr ""
+msgstr "名称无效"
 
 #: src/caja-rename.c:292
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "以下内容将被覆盖："
 
 #: src/caja-rename.c:292
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "您希望继续吗？"
 
 #: src/caja-rename.c:294
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "确认覆盖"
 
 #: src/caja-rename.c:355
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "重命名如下文件时发生错误："
 
 #: src/caja-rename.c:357
 msgid "Rename error"
-msgstr ""
+msgstr "重命名错误"
 
 #: src/caja-rename.c:450
 msgid "Rename All…"
-msgstr ""
+msgstr "全部重命名…"
 
 #: src/caja-rename.c:450
 msgid "Rename selected items"
-msgstr ""
+msgstr "重命名选中项目"
 
 #: data/caja-rename.ui:77
 msgid "Rename..."
-msgstr ""
+msgstr "重命名…"
 
 #: data/caja-rename.ui:94
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: data/caja-rename.ui:147
 msgid "Title case"
@@ -129,8 +129,8 @@ msgstr "枚举"
 
 #: data/libcaja-rename.caja-extension.in:10
 msgid "Caja Rename"
-msgstr ""
+msgstr "Caja 重命名"
 
 #: data/libcaja-rename.caja-extension.in:18
 msgid "Rename all selected files"
-msgstr ""
+msgstr "重命名所有选中文件"
