@@ -1,3 +1,7 @@
+# 24.4.1
+
+ - Translated using Weblate (Chinese (Simplified)) (a0e4550)
+
 # 24.2.1
 
  - Translated using Weblate (Portuguese) (2b5c484)
