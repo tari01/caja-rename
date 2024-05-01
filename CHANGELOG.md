@@ -1,3 +1,8 @@
+# 24.5.1
+
+ - Translated using Weblate (Hungarian) (f4635f9)
+ - Added translation using Weblate (Hungarian) (4b56629)
+
 # 24.4.1
 
  - Translated using Weblate (Chinese (Simplified)) (a0e4550)
