@@ -131,7 +131,12 @@ static void updateList (GtkWidget *pWidget, gpointer pData)
             GString *sString = g_string_new (sName);
             g_free (sName);
             g_string_replace (sString, sSearch, sWith, 0);
-            sName = g_string_free_and_steal (sString);
+
+            #if !GLIB_CHECK_VERSION (2, 76, 0)
+                sName = g_string_free (sString, FALSE);
+            #else
+                sName = g_string_free_and_steal (sString);
+            #endif
         }
 
         if (sName)
@@ -172,7 +177,12 @@ static void onInsertText (GtkEditable *pWidget, gchar *sText, gint nLength, gint
     GString *sString = g_string_new (sText);
     g_string_replace (sString, "/", "", 0);
     g_string_replace (sString, "\\", "", 0);
-    gchar *sNewText = g_string_free_and_steal (sString);
+
+    #if !GLIB_CHECK_VERSION (2, 76, 0)
+        gchar *sNewText = g_string_free (sString, FALSE);
+    #else
+        gchar *sNewText = g_string_free_and_steal (sString);
+    #endif
 
     if (sNewText)
     {
