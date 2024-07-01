@@ -1,3 +1,8 @@
+# 24.7.1
+
+ - Merge branch 'sunweaver-pr/glib2-274' (8ab1a2a)
+ - src/: Support building against older GLib-2.0 versions. (05bd5a2)
+
 # 24.5.1
 
  - Translated using Weblate (Hungarian) (f4635f9)
