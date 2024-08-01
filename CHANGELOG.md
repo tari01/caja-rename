@@ -1,3 +1,7 @@
+# 24.8.1
+
+ - Translated using Weblate (English (United Kingdom)) (308d0a2)
+
 # 24.7.1
 
  - Merge branch 'sunweaver-pr/glib2-274' (8ab1a2a)

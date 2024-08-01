@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-04-01 19:32+0200\n"
+"POT-Creation-Date: 2024-08-01 08:12+0200\n"
 "PO-Revision-Date: 2017-03-27 17:23+0000\n"
 "Last-Translator: René Devers <rene.devers@gmail.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
@@ -16,39 +16,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/caja-rename.c:234
+#: src/caja-rename.c:244
 msgid "The following names are not acceptable:"
 msgstr ""
 
-#: src/caja-rename.c:236
+#: src/caja-rename.c:246
 msgid "Invalid names"
 msgstr ""
 
-#: src/caja-rename.c:292
+#: src/caja-rename.c:302
 msgid "The following will be overwritten:"
 msgstr ""
 
-#: src/caja-rename.c:292
+#: src/caja-rename.c:302
 msgid "Do you wish to continue?"
 msgstr ""
 
-#: src/caja-rename.c:294
+#: src/caja-rename.c:304
 msgid "Confirm overwrite"
 msgstr ""
 
-#: src/caja-rename.c:355
+#: src/caja-rename.c:365
 msgid "There were errors while renaming the following:"
 msgstr ""
 
-#: src/caja-rename.c:357
+#: src/caja-rename.c:367
 msgid "Rename error"
 msgstr ""
 
-#: src/caja-rename.c:450
+#: src/caja-rename.c:460
 msgid "Rename All…"
 msgstr ""
 
-#: src/caja-rename.c:450
+#: src/caja-rename.c:460
 msgid "Rename selected items"
 msgstr ""
 
@@ -124,10 +124,10 @@ msgstr ""
 msgid "Enumerate"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.in:11
+#: data/libcaja-rename.caja-extension.in:12
 msgid "Caja Rename"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.in:21
+#: data/libcaja-rename.caja-extension.in:23
 msgid "Rename all selected files"
 msgstr ""

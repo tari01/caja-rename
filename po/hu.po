@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 24.2.1\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-04-01 19:32+0200\n"
+"POT-Creation-Date: 2024-08-01 08:12+0200\n"
 "PO-Revision-Date: 2024-04-12 14:01+0000\n"
 "Last-Translator: Mesehordo <mesehordo@protonmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/caja-rename/"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.5-dev\n"
 
-#: src/caja-rename.c:234
+#: src/caja-rename.c:244
 msgid "The following names are not acceptable:"
 msgstr "A következő nevek nem elfogadhatók:"
 
-#: src/caja-rename.c:236
+#: src/caja-rename.c:246
 msgid "Invalid names"
 msgstr "Érvénytelen nevek"
 
-#: src/caja-rename.c:292
+#: src/caja-rename.c:302
 msgid "The following will be overwritten:"
 msgstr "A következő felülírásra kerül:"
 
-#: src/caja-rename.c:292
+#: src/caja-rename.c:302
 msgid "Do you wish to continue?"
 msgstr "Szeretnéd folytatni?"
 
-#: src/caja-rename.c:294
+#: src/caja-rename.c:304
 msgid "Confirm overwrite"
 msgstr "A felülírás megerősítése"
 
-#: src/caja-rename.c:355
+#: src/caja-rename.c:365
 msgid "There were errors while renaming the following:"
 msgstr "Hiba történt a következő átnevezése során:"
 
-#: src/caja-rename.c:357
+#: src/caja-rename.c:367
 msgid "Rename error"
 msgstr "Átnevezési hiba"
 
-#: src/caja-rename.c:450
+#: src/caja-rename.c:460
 msgid "Rename All…"
 msgstr "Összes átnevezése…"
 
-#: src/caja-rename.c:450
+#: src/caja-rename.c:460
 msgid "Rename selected items"
 msgstr "A kijelölt elemek átnevezése"
 
@@ -127,10 +127,10 @@ msgstr "Kezdés"
 msgid "Enumerate"
 msgstr "Felsorolás"
 
-#: data/libcaja-rename.caja-extension.in:11
+#: data/libcaja-rename.caja-extension.in:12
 msgid "Caja Rename"
 msgstr "Caja Átnevező"
 
-#: data/libcaja-rename.caja-extension.in:21
+#: data/libcaja-rename.caja-extension.in:23
 msgid "Rename all selected files"
 msgstr "Az összes kiválasztott fájl átnevezése"

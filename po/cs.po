@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-04-01 19:32+0200\n"
+"POT-Creation-Date: 2024-08-01 08:12+0200\n"
 "PO-Revision-Date: 2023-10-01 18:03+0000\n"
 "Last-Translator: Tomáš Marný <tomik.marny@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/caja-rename/master/"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 5.1-dev\n"
 
-#: src/caja-rename.c:234
+#: src/caja-rename.c:244
 msgid "The following names are not acceptable:"
 msgstr "Následující názvy nejsou přijatelné:"
 
-#: src/caja-rename.c:236
+#: src/caja-rename.c:246
 msgid "Invalid names"
 msgstr "Neplatné názvy"
 
-#: src/caja-rename.c:292
+#: src/caja-rename.c:302
 msgid "The following will be overwritten:"
 msgstr "Následující budou přepsány:"
 
-#: src/caja-rename.c:292
+#: src/caja-rename.c:302
 msgid "Do you wish to continue?"
 msgstr "Chcete pokračovat?"
 
-#: src/caja-rename.c:294
+#: src/caja-rename.c:304
 msgid "Confirm overwrite"
 msgstr "Potvrďte přepsání"
 
-#: src/caja-rename.c:355
+#: src/caja-rename.c:365
 msgid "There were errors while renaming the following:"
 msgstr "Při přejmenování následujících položek došlo k chybám:"
 
-#: src/caja-rename.c:357
+#: src/caja-rename.c:367
 msgid "Rename error"
 msgstr "Chyba během přejmenování"
 
-#: src/caja-rename.c:450
+#: src/caja-rename.c:460
 msgid "Rename All…"
 msgstr "Přejmenovat vše…"
 
-#: src/caja-rename.c:450
+#: src/caja-rename.c:460
 msgid "Rename selected items"
 msgstr "Přejmenovat vybrané položky"
 
@@ -127,10 +127,10 @@ msgstr "Začátek"
 msgid "Enumerate"
 msgstr "Výčet"
 
-#: data/libcaja-rename.caja-extension.in:11
+#: data/libcaja-rename.caja-extension.in:12
 msgid "Caja Rename"
 msgstr "Caja Rename"
 
-#: data/libcaja-rename.caja-extension.in:21
+#: data/libcaja-rename.caja-extension.in:23
 msgid "Rename all selected files"
 msgstr "Přejmenovat všechny vybrané soubory"
