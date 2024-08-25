@@ -29,11 +29,6 @@ include (FindPkgConfig)
 pkg_check_modules (DEPS REQUIRED gtk+-3.0 libcaja-extension gmodule-export-2.0)
 pkg_get_variable (EXTENSION_DIR libcaja-extension extensiondir)
 
-# Translation
-
-set (GETTEXT_PACKAGE "caja-rename")
-add_definitions (-DGETTEXT_PACKAGE="${GETTEXT_PACKAGE}" -DLOCALEDIR="${CMAKE_INSTALL_FULL_LOCALEDIR}")
-
 # Build
 
 add_subdirectory (src)
