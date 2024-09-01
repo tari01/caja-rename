@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 24.2.1\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-08-01 08:12+0200\n"
+"POT-Creation-Date: 2024-09-01 22:14+0200\n"
 "PO-Revision-Date: 2024-04-12 14:01+0000\n"
 "Last-Translator: Mesehordo <mesehordo@protonmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/caja-rename/"
@@ -127,10 +127,10 @@ msgstr "Kezdés"
 msgid "Enumerate"
 msgstr "Felsorolás"
 
-#: data/libcaja-rename.caja-extension.in:12
+#: data/libcaja-rename.caja-extension.intl:4
 msgid "Caja Rename"
 msgstr "Caja Átnevező"
 
-#: data/libcaja-rename.caja-extension.in:23
+#: data/libcaja-rename.caja-extension.intl:5
 msgid "Rename all selected files"
 msgstr "Az összes kiválasztott fájl átnevezése"

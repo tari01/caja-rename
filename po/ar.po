@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-08-01 08:12+0200\n"
+"POT-Creation-Date: 2024-09-01 22:14+0200\n"
 "PO-Revision-Date: 2024-01-04 10:06+0000\n"
 "Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/caja-rename/"
@@ -128,10 +128,10 @@ msgstr "ابدأ"
 msgid "Enumerate"
 msgstr "تعداد"
 
-#: data/libcaja-rename.caja-extension.in:12
+#: data/libcaja-rename.caja-extension.intl:4
 msgid "Caja Rename"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.in:23
+#: data/libcaja-rename.caja-extension.intl:5
 msgid "Rename all selected files"
 msgstr "إعادة تسمية كافة الملفات المختارة"

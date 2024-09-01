@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-08-01 08:12+0200\n"
+"POT-Creation-Date: 2024-09-01 22:14+0200\n"
 "PO-Revision-Date: 2023-09-21 16:48+0000\n"
 "Last-Translator: Kamborio <Kamborio15@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/caja-rename/"
@@ -127,10 +127,10 @@ msgstr "Comenzar"
 msgid "Enumerate"
 msgstr "Enumerar"
 
-#: data/libcaja-rename.caja-extension.in:12
+#: data/libcaja-rename.caja-extension.intl:4
 msgid "Caja Rename"
 msgstr "Renombrar Caja"
 
-#: data/libcaja-rename.caja-extension.in:23
+#: data/libcaja-rename.caja-extension.intl:5
 msgid "Rename all selected files"
 msgstr "Renombrar todos los archivos seleccionados"

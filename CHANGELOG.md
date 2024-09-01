@@ -1,3 +1,7 @@
+# 24.9.1
+
+ - Refactor translation code (a63d8b1)
+
 # 24.8.1
 
  - Translated using Weblate (English (United Kingdom)) (308d0a2)
