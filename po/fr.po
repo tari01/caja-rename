@@ -21,47 +21,47 @@ msgstr ""
 
 #: src/caja-rename.c:244
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "Les noms suivants ne sont pas acceptables :"
 
 #: src/caja-rename.c:246
 msgid "Invalid names"
-msgstr ""
+msgstr "Noms invalides"
 
 #: src/caja-rename.c:302
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "Les éléments suivants seront remplacés :"
 
 #: src/caja-rename.c:302
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Voulez-vous continuer ?"
 
 #: src/caja-rename.c:304
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Confirmer l'écrasement"
 
 #: src/caja-rename.c:365
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "Des erreurs se sont produites lors du changement de nom :"
 
 #: src/caja-rename.c:367
 msgid "Rename error"
-msgstr ""
+msgstr "Erreur de renommage"
 
 #: src/caja-rename.c:460
 msgid "Rename All…"
-msgstr ""
+msgstr "Renommer tout …"
 
 #: src/caja-rename.c:460
 msgid "Rename selected items"
-msgstr ""
+msgstr "Renommer les éléments sélectionnés"
 
 #: data/caja-rename.ui:77
 msgid "Rename..."
-msgstr ""
+msgstr "Renommer …"
 
 #: data/caja-rename.ui:94
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: data/caja-rename.ui:147
 msgid "Title case"
@@ -127,10 +127,10 @@ msgstr "Commencer"
 msgid "Enumerate"
 msgstr "Énumérer"
 
-#: data/libcaja-rename.caja-extension.intl:4
+#: data/libcaja-rename.caja-extension.in:12
 msgid "Caja Rename"
-msgstr ""
+msgstr "Caja Rename"
 
-#: data/libcaja-rename.caja-extension.intl:5
+#: data/libcaja-rename.caja-extension.in:23
 msgid "Rename all selected files"
-msgstr ""
+msgstr "Renommer tous les fichiers sélectionnés"
