@@ -1,5 +1,5 @@
 /*
- * Copyright 2017-2023 Robert Tari <robert@tari.in>
+ * Copyright 2017-2024 Robert Tari <robert@tari.in>
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License version 3, as published
@@ -14,6 +14,7 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <gio/gio.h>
 #include <glib/gstdio.h>
 #include <glib/gi18n-lib.h>
 #include <libcaja-extension/caja-menu-provider.h>
@@ -21,8 +22,6 @@
 #include "titlecase.h"
 
 static GType m_cCajaRenameType = 0;
-static GdkPixbuf *m_pPixBufFolder = NULL;
-static GdkPixbuf *m_pPixBufFile = NULL;
 static GtkListStore *m_pListStore = NULL;
 static GtkBuilder *m_pBuilder = NULL;
 
@@ -402,21 +401,11 @@ static void onActivate (CajaMenuItem *pItem, GList *lFiles)
     m_pListStore = GTK_LIST_STORE (gtk_builder_get_object (m_pBuilder, "liststore"));
     GtkDialog *pDialog = GTK_DIALOG (gtk_builder_get_object (m_pBuilder, "dialog"));
     GList *pPath = NULL;
+    GtkIconTheme *pTheme = gtk_icon_theme_get_default ();
 
     for (pPath = lFiles; pPath != NULL; pPath = pPath->next)
     {
         GdkPixbuf *pPixBuf = NULL;
-        gboolean bDirectory = caja_file_info_is_directory (pPath->data);
-
-        if (bDirectory)
-        {
-            pPixBuf = m_pPixBufFolder;
-        }
-        else
-        {
-            pPixBuf = m_pPixBufFile;
-        }
-
         gchar *sUri = caja_file_info_get_uri (pPath->data);
         gchar *sScheme = g_uri_parse_scheme (sUri);
         gint nFileComp = strcmp (sScheme, "file");
@@ -436,12 +425,42 @@ static void onActivate (CajaMenuItem *pItem, GList *lFiles)
 
         gchar *sDirName = g_path_get_dirname (sPath);
         gchar *sBaseName = g_path_get_basename (sPath);
-        g_free (sPath);
         g_free (sScheme);
         g_free (sUri);
         GtkTreeIter cIter;
         gtk_list_store_append (m_pListStore, &cIter);
+        GFile *pFile = g_file_new_for_path (sPath);
+        g_free (sPath);
+        GError *pError = NULL;
+        GFileInfo *pInfo = g_file_query_info (pFile, "standard::icon", 0, NULL, &pError);
+        g_object_unref (pFile);
+
+        if (pError)
+        {
+            g_error ("Panic: Failed querying file info: %s", pError->message);
+            g_error_free (pError);
+        }
+        else
+        {
+            GIcon *pIcon = g_file_info_get_icon (pInfo);
+            GStrv lNames = NULL;
+            g_object_get (pIcon, "names", &lNames, NULL);
+            g_object_unref (pInfo);
+            GtkIconInfo *pIconInfo = gtk_icon_theme_choose_icon (pTheme, (const char**) lNames, 22, 0);
+            g_strfreev (lNames);
+            pPixBuf = gtk_icon_info_load_icon (pIconInfo, &pError);
+
+            if (pError)
+            {
+                g_error ("Panic: Failed loading icon: %s", pError->message);
+                g_error_free (pError);
+            }
+
+            g_object_unref (pIconInfo);
+        }
+
         gtk_list_store_set (m_pListStore, &cIter, 0, sDirName, 1, pPixBuf, 2, sBaseName, 3, sBaseName, -1);
+        g_object_unref (pPixBuf);
         g_free (sDirName);
         g_free (sBaseName);
     }
@@ -476,28 +495,6 @@ static void onInterfaceInit (CajaMenuProviderIface *pInterface)
 
 static void onInstanceInit (CajaRename *self)
 {
-    GtkIconTheme *pTheme = gtk_icon_theme_get_default ();
-    gboolean bFolder = gtk_icon_theme_has_icon (pTheme, "folder");
-
-    if (bFolder)
-    {
-        m_pPixBufFolder = gtk_icon_theme_load_icon (pTheme, "folder", 22, 0, NULL);
-    }
-    else
-    {
-        m_pPixBufFolder = gtk_icon_theme_load_icon (pTheme, "image-missing", 22, 0, NULL);
-    }
-
-    gboolean bFile = gtk_icon_theme_has_icon (pTheme, "text-x-generic");
-
-    if (bFile)
-    {
-        m_pPixBufFile = gtk_icon_theme_load_icon (pTheme, "text-x-generic", 22, 0, NULL);
-    }
-    else
-    {
-        m_pPixBufFile = gtk_icon_theme_load_icon (pTheme, "image-missing", 22, 0, NULL);
-    }
 }
 
 static void onClassInit (CajaRenameClass *klass)
