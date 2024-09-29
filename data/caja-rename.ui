@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.40.0 
+<!-- Generated with glade 3.40.0
 
-Copyright (C) 
+Copyright (C)
 
 This file is part of cajarename.
 
@@ -590,6 +590,7 @@ along with cajarename.  If not, see <http://www.gnu.org/licenses/>.
                     <property name="input-purpose">number</property>
                     <property name="adjustment">adjustmentEnumerateStart</property>
                     <property name="numeric">True</property>
+                    <property name="value">1</property>
                     <signal name="value-changed" handler="updateList" swapped="no"/>
                   </object>
                   <packing>

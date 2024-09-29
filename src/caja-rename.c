@@ -386,7 +386,7 @@ static void onApply (GtkWidget *pWidget, gpointer pData)
         GtkSpinButton *pDigits = GTK_SPIN_BUTTON (gtk_builder_get_object (m_pBuilder, "spinbuttonEnumerateDigits"));
         gtk_spin_button_set_value (pDigits, 0);
         GtkSpinButton *pStart = GTK_SPIN_BUTTON (gtk_builder_get_object (m_pBuilder, "spinbuttonEnumerateStart"));
-        gtk_spin_button_set_value (pStart, 0);
+        gtk_spin_button_set_value (pStart, 1);
     }
 }
 
