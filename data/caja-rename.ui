@@ -643,6 +643,9 @@ along with cajarename.  If not, see <http://www.gnu.org/licenses/>.
             <property name="margin-start">5</property>
             <property name="margin-end">5</property>
             <property name="overlay-scrolling">False</property>
+            <style>
+                <class name="frame"/>
+            </style>
             <child>
               <object class="GtkTreeView" id="treeview">
                 <property name="visible">True</property>
