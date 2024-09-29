@@ -6,9 +6,9 @@ configure_file ("${CMAKE_CURRENT_SOURCE_DIR}/libcaja-rename.caja-extension.in" "
 intltool_merge_translations ("libcaja-rename.caja-extension.intl" "libcaja-rename.caja-extension" ALL UTF8)
 install (FILES "${CMAKE_CURRENT_BINARY_DIR}/libcaja-rename.caja-extension" DESTINATION "${CMAKE_INSTALL_FULL_DATADIR}/caja/extensions")
 
-# caja-rename.svg
+# icons
 
-install (DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/icons/" DESTINATION "${CMAKE_INSTALL_FULL_DATADIR}/icons/hicolor")
+install (DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/icons" DESTINATION "${CMAKE_INSTALL_FULL_DATADIR}")
 
 # caja-rename-gresource.c
 
