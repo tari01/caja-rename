@@ -1,3 +1,11 @@
+# 24.10.1
+
+ - Add high contrast icon (cc2a927)
+ - data/caja-rename.ui: Add a frame to the scroll window (45f6d2b)
+ - Set enumeration start to 1 (048abe3)
+ - src/caja-rename.c: Use file-specific icons (2513957)
+ - Translated using Weblate (French) (532a8d4)
+
 # 24.9.1
 
  - Refactor translation code (a63d8b1)
