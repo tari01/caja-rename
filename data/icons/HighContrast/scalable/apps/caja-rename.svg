@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   version="1"
+   id="svg10"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10">
+    <linearGradient
+       id="swatch11">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       id="swatch10">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop10" />
+    </linearGradient>
+  </defs>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect14-56"
+     width="24"
+     height="24"
+     x="0"
+     y="8"
+     rx="3.2"
+     ry="3.2" />
+  <rect
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect14-5-2"
+     width="20.799999"
+     height="20.799999"
+     x="1.5999985"
+     y="9.6000004"
+     rx="1.6"
+     ry="1.6" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.70769;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect14-5-3-9"
+     width="17.6"
+     height="17.6"
+     x="3.2000008"
+     y="11.2"
+     rx="0.80000001"
+     ry="0.80000001" />
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect14"
+     width="24"
+     height="24"
+     x="8"
+     y="0"
+     rx="3.2"
+     ry="3.2" />
+  <rect
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.2;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect14-5"
+     width="20.799999"
+     height="20.799999"
+     x="9.6000004"
+     y="1.6000004"
+     rx="1.6"
+     ry="1.6" />
+  <path
+     d="M 14.292739,23.782243 H 9.7148157 L 8.9923851,25.950375 H 6.0494787 l 4.2053203,-11.90075 h 3.490404 l 4.20532,11.90075 h -2.942906 l -0.7148,-2.168132 z m -3.847823,-2.208005 h 3.110209 l -1.551309,-4.734997 z"
+     id="path3"
+     style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.398622" />
+  <rect
+     style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.70769;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect14-5-3"
+     width="17.6"
+     height="17.6"
+     x="11.2"
+     y="3.1999998"
+     rx="0.80000001"
+     ry="0.80000001" />
+  <path
+     d="m 19.866859,10.656675 q 0.734304,0 1.113582,-0.318843 0.379267,-0.318842 0.379267,-0.9405909 0,-0.6137702 -0.379267,-0.9326336 Q 20.601176,8.137794 19.866859,8.137794 h -1.718816 v 2.51887 h 1.718816 z m 0.104901,5.20515 q 0.936048,0 1.404072,-0.390582 0.476082,-0.390582 0.476082,-1.179709 0,-0.773181 -0.468025,-1.155792 Q 20.915865,12.74509 19.97176,12.74509 h -1.823717 v 3.116683 h 1.823717 z m 2.888794,-4.280352 q 1.000625,0.286956 1.549338,1.060171 0.548715,0.773181 0.548715,1.8971 0,1.721773 -1.178159,2.566702 -1.178158,0.844929 -3.582856,0.844929 h -5.1562 V 6.0496245 h 4.664129 q 2.509599,0 3.631279,0.7492657 1.129736,0.7492656 1.129736,2.3992908 0,0.868844 -0.411541,1.482614 -0.411542,0.605812 -1.194272,0.900719 z"
+     id="path7"
+     style="stroke-width:0.41063" />
+</svg>
