@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: caja-rename 24.2.1\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2024-09-01 22:14+0200\n"
-"PO-Revision-Date: 2024-04-12 14:01+0000\n"
-"Last-Translator: Mesehordo <mesehordo@protonmail.com>\n"
+"PO-Revision-Date: 2024-11-01 17:49+0000\n"
+"Last-Translator: Mester Imre <mesterimreur@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/caja-rename/"
 "master/hu/>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #: src/caja-rename.c:244
 msgid "The following names are not acceptable:"
@@ -33,7 +33,7 @@ msgstr "A következő felülírásra kerül:"
 
 #: src/caja-rename.c:302
 msgid "Do you wish to continue?"
-msgstr "Szeretnéd folytatni?"
+msgstr "Szeretné folytatni?"
 
 #: src/caja-rename.c:304
 msgid "Confirm overwrite"
@@ -49,7 +49,7 @@ msgstr "Átnevezési hiba"
 
 #: src/caja-rename.c:460
 msgid "Rename All…"
-msgstr "Összes átnevezése…"
+msgstr "Az összes átnevezése…"
 
 #: src/caja-rename.c:460
 msgid "Rename selected items"
@@ -105,7 +105,7 @@ msgstr "Hossz"
 
 #: data/caja-rename.ui:436
 msgid "Remove"
-msgstr "Eltávolít"
+msgstr "Eltávolítás"
 
 #: data/caja-rename.ui:460
 msgid "Text to search for"
@@ -113,7 +113,7 @@ msgstr "Keresendő szöveg"
 
 #: data/caja-rename.ui:528
 msgid "Replace"
-msgstr "Cserél"
+msgstr "Csere"
 
 #: data/caja-rename.ui:550
 msgid "Digits"
