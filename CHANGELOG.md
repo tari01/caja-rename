@@ -1,3 +1,9 @@
+# 24.12.1
+
+ - Translated using Weblate (Hungarian) (e791d2a)
+ - Translated using Weblate (Lithuanian) (0b37c4a)
+ - Provide both HighContrast and ContrastHigh icons (d341fc0)
+
 # 24.10.1
 
  - Add high contrast icon (cc2a927)
