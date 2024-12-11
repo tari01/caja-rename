@@ -8,126 +8,129 @@ msgstr ""
 "Project-Id-Version: caja-rename 24.9.1\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2024-09-01 22:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-12-13 00:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/caja-rename/master/"
+"ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: src/caja-rename.c:244
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "பின்வரும் பெயர்கள் ஏற்கத்தக்கவை அல்ல:"
 
 #: src/caja-rename.c:246
 msgid "Invalid names"
-msgstr ""
+msgstr "தவறான பெயர்கள்"
 
 #: src/caja-rename.c:302
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "பின்வருபவை மேலெழுதப்படும்:"
 
 #: src/caja-rename.c:302
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "நீங்கள் தொடர விரும்புகிறீர்களா?"
 
 #: src/caja-rename.c:304
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "மேலெழுதலை உறுதிப்படுத்தவும்"
 
 #: src/caja-rename.c:365
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "பின்வருவனவற்றை மறுபெயரிடும்போது பிழைகள் இருந்தன:"
 
 #: src/caja-rename.c:367
 msgid "Rename error"
-msgstr ""
+msgstr "பிழையை மறுபெயரிடுங்கள்"
 
 #: src/caja-rename.c:460
 msgid "Rename All…"
-msgstr ""
+msgstr "அனைத்தையும் மறுபெயரிடுங்கள்…"
 
 #: src/caja-rename.c:460
 msgid "Rename selected items"
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்ட பொருட்களை மறுபெயரிடுங்கள்"
 
 #: data/caja-rename.ui:77
 msgid "Rename..."
-msgstr ""
+msgstr "மறுபெயரிடுங்கள் ..."
 
 #: data/caja-rename.ui:94
 msgid "Close"
-msgstr ""
+msgstr "மூடு"
 
 #: data/caja-rename.ui:147
 msgid "Title case"
-msgstr ""
+msgstr "தலைப்பு வழக்கு"
 
 #: data/caja-rename.ui:162
 msgid "Lower case"
-msgstr ""
+msgstr "கீழ் வழக்கு"
 
 #: data/caja-rename.ui:177
 msgid "Upper case"
-msgstr ""
+msgstr "மேல் வழக்கு"
 
 #: data/caja-rename.ui:192
 msgid "Unchanged"
-msgstr ""
+msgstr "மாறாமல்"
 
 #: data/caja-rename.ui:235
 msgid "Case"
-msgstr ""
+msgstr "வழக்கு"
 
 #: data/caja-rename.ui:257
 msgid "Position"
-msgstr ""
+msgstr "நிலை"
 
 #: data/caja-rename.ui:304 data/caja-rename.ui:472
 msgid "Text to insert"
-msgstr ""
+msgstr "செருக உரை"
 
 #: data/caja-rename.ui:338
 msgid "Insert"
-msgstr ""
+msgstr "செருகவும்"
 
 #: data/caja-rename.ui:362
 msgid "From"
-msgstr ""
+msgstr "இருந்து"
 
 #: data/caja-rename.ui:390
 msgid "Length"
-msgstr ""
+msgstr "நீளம்"
 
 #: data/caja-rename.ui:436
 msgid "Remove"
-msgstr ""
+msgstr "அகற்று"
 
 #: data/caja-rename.ui:460
 msgid "Text to search for"
-msgstr ""
+msgstr "தேட உரை"
 
 #: data/caja-rename.ui:528
 msgid "Replace"
-msgstr ""
+msgstr "மாற்றவும்"
 
 #: data/caja-rename.ui:550
 msgid "Digits"
-msgstr ""
+msgstr "இலக்கங்கள்"
 
 #: data/caja-rename.ui:562
 msgid "Start"
-msgstr ""
+msgstr "தொடங்கு"
 
 #: data/caja-rename.ui:624
 msgid "Enumerate"
-msgstr ""
+msgstr "கணக்கிடுங்கள்"
 
 #: data/libcaja-rename.caja-extension.intl:4
 msgid "Caja Rename"
-msgstr ""
+msgstr "பெட்டி மறுபெயரிடுதல்"
 
 #: data/libcaja-rename.caja-extension.intl:5
 msgid "Rename all selected files"
-msgstr ""
+msgstr "தேர்ந்தெடுக்கப்பட்ட அனைத்து கோப்புகளையும் மறுபெயரிடுங்கள்"
