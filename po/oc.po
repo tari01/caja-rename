@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: cajarename 19.3.20\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
 "POT-Creation-Date: 2024-09-01 22:14+0200\n"
-"PO-Revision-Date: 2020-11-08 21:26+0000\n"
+"PO-Revision-Date: 2024-12-22 13:00+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/caja-rename/"
 "master/oc/>\n"
@@ -17,51 +17,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: src/caja-rename.c:244
 msgid "The following names are not acceptable:"
-msgstr ""
+msgstr "Los noms seguents son pas acceptats :"
 
 #: src/caja-rename.c:246
 msgid "Invalid names"
-msgstr ""
+msgstr "Noms invalids"
 
 #: src/caja-rename.c:302
 msgid "The following will be overwritten:"
-msgstr ""
+msgstr "Los elements seguents seràn remplaçats :"
 
 #: src/caja-rename.c:302
 msgid "Do you wish to continue?"
-msgstr ""
+msgstr "Volètz perseguir ?"
 
 #: src/caja-rename.c:304
 msgid "Confirm overwrite"
-msgstr ""
+msgstr "Confirmar l'espotiment"
 
 #: src/caja-rename.c:365
 msgid "There were errors while renaming the following:"
-msgstr ""
+msgstr "D'errors se son produchas pendent lo renomenatge :"
 
 #: src/caja-rename.c:367
 msgid "Rename error"
-msgstr ""
+msgstr "Error de renomenatge"
 
 #: src/caja-rename.c:460
 msgid "Rename All…"
-msgstr ""
+msgstr "Renomenar tot…"
 
 #: src/caja-rename.c:460
 msgid "Rename selected items"
-msgstr ""
+msgstr "Renomenar los elements seleccionats"
 
 #: data/caja-rename.ui:77
 msgid "Rename..."
-msgstr ""
+msgstr "Renomenar…"
 
 #: data/caja-rename.ui:94
 msgid "Close"
-msgstr ""
+msgstr "Tampar"
 
 #: data/caja-rename.ui:147
 msgid "Title case"
@@ -129,8 +129,8 @@ msgstr "Enumerar"
 
 #: data/libcaja-rename.caja-extension.intl:4
 msgid "Caja Rename"
-msgstr ""
+msgstr "Caja Rename"
 
 #: data/libcaja-rename.caja-extension.intl:5
 msgid "Rename all selected files"
-msgstr ""
+msgstr "Renomenar totes los fichièrs seleccionats"
