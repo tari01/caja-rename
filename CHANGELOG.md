@@ -1,3 +1,9 @@
+# 25.1.1
+
+ - Translated using Weblate (Occitan) (35f6024)
+ - Translated using Weblate (Tamil) (b52e1d1)
+ - Added translation using Weblate (Tamil) (3321d6c)
+
 # 24.12.1
 
  - Translated using Weblate (Hungarian) (e791d2a)
