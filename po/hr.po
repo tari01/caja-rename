@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-09-01 22:14+0200\n"
+"POT-Creation-Date: 2024-09-29 19:12+0200\n"
 "PO-Revision-Date: 2023-09-27 17:01+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/caja-rename/"
@@ -20,39 +20,39 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.1-dev\n"
 
-#: src/caja-rename.c:244
+#: src/caja-rename.c:243
 msgid "The following names are not acceptable:"
 msgstr "Sljedeća imena nisu dopuštena:"
 
-#: src/caja-rename.c:246
+#: src/caja-rename.c:245
 msgid "Invalid names"
 msgstr "Neispravna imena"
 
-#: src/caja-rename.c:302
+#: src/caja-rename.c:301
 msgid "The following will be overwritten:"
 msgstr "Sljedeće će se prepisati:"
 
-#: src/caja-rename.c:302
+#: src/caja-rename.c:301
 msgid "Do you wish to continue?"
 msgstr "Želiš li nastaviti?"
 
-#: src/caja-rename.c:304
+#: src/caja-rename.c:303
 msgid "Confirm overwrite"
 msgstr "Potvrdi prepisivanje"
 
-#: src/caja-rename.c:365
+#: src/caja-rename.c:364
 msgid "There were errors while renaming the following:"
 msgstr "Došlo je do grešaka tijekom preimenovanja sljedećeg:"
 
-#: src/caja-rename.c:367
+#: src/caja-rename.c:366
 msgid "Rename error"
 msgstr "Greška u preimenovanju"
 
-#: src/caja-rename.c:460
+#: src/caja-rename.c:479
 msgid "Rename All…"
 msgstr "Preimenuj sve …"
 
-#: src/caja-rename.c:460
+#: src/caja-rename.c:479
 msgid "Rename selected items"
 msgstr "Preimenuj odabrane stavke"
 
@@ -124,14 +124,14 @@ msgstr "Brojke"
 msgid "Start"
 msgstr "Pokreni"
 
-#: data/caja-rename.ui:624
+#: data/caja-rename.ui:625
 msgid "Enumerate"
 msgstr "Numeriraj"
 
-#: data/libcaja-rename.caja-extension.intl:4
+#: data/libcaja-rename.caja-extension.intl:3
 msgid "Caja Rename"
 msgstr "Caja preimenovanje"
 
-#: data/libcaja-rename.caja-extension.intl:5
+#: data/libcaja-rename.caja-extension.intl:4
 msgid "Rename all selected files"
 msgstr "Preimenuj sve odabrane datoteke"

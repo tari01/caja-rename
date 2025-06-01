@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 20.1.26\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-09-01 22:14+0200\n"
+"POT-Creation-Date: 2024-09-29 19:12+0200\n"
 "PO-Revision-Date: 2024-01-04 10:06+0000\n"
 "Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/caja-rename/"
@@ -20,39 +20,39 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 5.4-dev\n"
 
-#: src/caja-rename.c:244
+#: src/caja-rename.c:243
 msgid "The following names are not acceptable:"
 msgstr "الأسماء التالية غير مقبولة:"
 
-#: src/caja-rename.c:246
+#: src/caja-rename.c:245
 msgid "Invalid names"
 msgstr "أسماء غير صالحة"
 
-#: src/caja-rename.c:302
+#: src/caja-rename.c:301
 msgid "The following will be overwritten:"
 msgstr "سيتم استبدال ما يلي:"
 
-#: src/caja-rename.c:302
+#: src/caja-rename.c:301
 msgid "Do you wish to continue?"
 msgstr "هل ترغب في الاستمرار؟"
 
-#: src/caja-rename.c:304
+#: src/caja-rename.c:303
 msgid "Confirm overwrite"
 msgstr ""
 
-#: src/caja-rename.c:365
+#: src/caja-rename.c:364
 msgid "There were errors while renaming the following:"
 msgstr ""
 
-#: src/caja-rename.c:367
+#: src/caja-rename.c:366
 msgid "Rename error"
 msgstr "خطأ في إعادة التسمية"
 
-#: src/caja-rename.c:460
+#: src/caja-rename.c:479
 msgid "Rename All…"
 msgstr "إعادة تسمية الكل…"
 
-#: src/caja-rename.c:460
+#: src/caja-rename.c:479
 msgid "Rename selected items"
 msgstr ""
 
@@ -124,14 +124,14 @@ msgstr "أرقام"
 msgid "Start"
 msgstr "ابدأ"
 
-#: data/caja-rename.ui:624
+#: data/caja-rename.ui:625
 msgid "Enumerate"
 msgstr "تعداد"
 
-#: data/libcaja-rename.caja-extension.intl:4
+#: data/libcaja-rename.caja-extension.intl:3
 msgid "Caja Rename"
 msgstr ""
 
-#: data/libcaja-rename.caja-extension.intl:5
+#: data/libcaja-rename.caja-extension.intl:4
 msgid "Rename all selected files"
 msgstr "إعادة تسمية كافة الملفات المختارة"

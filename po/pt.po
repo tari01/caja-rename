@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-rename 21.11.24\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-09-01 22:14+0200\n"
+"POT-Creation-Date: 2024-09-29 19:12+0200\n"
 "PO-Revision-Date: 2024-01-08 16:06+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/caja-rename/"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.4-dev\n"
 
-#: src/caja-rename.c:244
+#: src/caja-rename.c:243
 msgid "The following names are not acceptable:"
 msgstr "Os nomes seguintes não são aceitáveis:"
 
-#: src/caja-rename.c:246
+#: src/caja-rename.c:245
 msgid "Invalid names"
 msgstr "Nomes inválidos"
 
-#: src/caja-rename.c:302
+#: src/caja-rename.c:301
 msgid "The following will be overwritten:"
 msgstr "O seguinte será substituído:"
 
-#: src/caja-rename.c:302
+#: src/caja-rename.c:301
 msgid "Do you wish to continue?"
 msgstr "Deseja continuar?"
 
-#: src/caja-rename.c:304
+#: src/caja-rename.c:303
 msgid "Confirm overwrite"
 msgstr "Confirmar substituição"
 
-#: src/caja-rename.c:365
+#: src/caja-rename.c:364
 msgid "There were errors while renaming the following:"
 msgstr "Ocorreram erros ao renomear o seguinte:"
 
-#: src/caja-rename.c:367
+#: src/caja-rename.c:366
 msgid "Rename error"
 msgstr "Erro de renomeação"
 
-#: src/caja-rename.c:460
+#: src/caja-rename.c:479
 msgid "Rename All…"
 msgstr "Renomear tudo…"
 
-#: src/caja-rename.c:460
+#: src/caja-rename.c:479
 msgid "Rename selected items"
 msgstr "Renomear elementos selecionados"
 
@@ -123,14 +123,14 @@ msgstr "Dígitos"
 msgid "Start"
 msgstr "Começar"
 
-#: data/caja-rename.ui:624
+#: data/caja-rename.ui:625
 msgid "Enumerate"
 msgstr "Enumerar"
 
-#: data/libcaja-rename.caja-extension.intl:4
+#: data/libcaja-rename.caja-extension.intl:3
 msgid "Caja Rename"
 msgstr "Caja Rename"
 
-#: data/libcaja-rename.caja-extension.intl:5
+#: data/libcaja-rename.caja-extension.intl:4
 msgid "Rename all selected files"
 msgstr "Renomear todos os ficheiros selecionados"

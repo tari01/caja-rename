@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cajarename 19.3.20\n"
 "Report-Msgid-Bugs-To: https://github.com/tari01/caja-rename/issues\n"
-"POT-Creation-Date: 2024-09-01 22:14+0200\n"
+"POT-Creation-Date: 2024-09-29 19:12+0200\n"
 "PO-Revision-Date: 2023-01-14 20:48+0000\n"
 "Last-Translator: slundi <slundi@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/caja-rename/"
@@ -19,39 +19,39 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: src/caja-rename.c:244
+#: src/caja-rename.c:243
 msgid "The following names are not acceptable:"
 msgstr "Les noms suivants ne sont pas acceptables :"
 
-#: src/caja-rename.c:246
+#: src/caja-rename.c:245
 msgid "Invalid names"
 msgstr "Noms invalides"
 
-#: src/caja-rename.c:302
+#: src/caja-rename.c:301
 msgid "The following will be overwritten:"
 msgstr "Les éléments suivants seront remplacés :"
 
-#: src/caja-rename.c:302
+#: src/caja-rename.c:301
 msgid "Do you wish to continue?"
 msgstr "Voulez-vous continuer ?"
 
-#: src/caja-rename.c:304
+#: src/caja-rename.c:303
 msgid "Confirm overwrite"
 msgstr "Confirmer l'écrasement"
 
-#: src/caja-rename.c:365
+#: src/caja-rename.c:364
 msgid "There were errors while renaming the following:"
 msgstr "Des erreurs se sont produites lors du changement de nom :"
 
-#: src/caja-rename.c:367
+#: src/caja-rename.c:366
 msgid "Rename error"
 msgstr "Erreur de renommage"
 
-#: src/caja-rename.c:460
+#: src/caja-rename.c:479
 msgid "Rename All…"
 msgstr "Renommer tout …"
 
-#: src/caja-rename.c:460
+#: src/caja-rename.c:479
 msgid "Rename selected items"
 msgstr "Renommer les éléments sélectionnés"
 
@@ -123,14 +123,14 @@ msgstr "Chiffres"
 msgid "Start"
 msgstr "Commencer"
 
-#: data/caja-rename.ui:624
+#: data/caja-rename.ui:625
 msgid "Enumerate"
 msgstr "Énumérer"
 
-#: data/libcaja-rename.caja-extension.in:12
+#: data/libcaja-rename.caja-extension.intl:3
 msgid "Caja Rename"
 msgstr "Caja Rename"
 
-#: data/libcaja-rename.caja-extension.in:23
+#: data/libcaja-rename.caja-extension.intl:4
 msgid "Rename all selected files"
 msgstr "Renommer tous les fichiers sélectionnés"

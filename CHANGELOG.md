@@ -1,3 +1,7 @@
+# 25.6.1
+
+ - Translated using Weblate (Portuguese (Brazil)) (f2e1d82)
+
 # 25.1.1
 
  - Translated using Weblate (Occitan) (35f6024)
